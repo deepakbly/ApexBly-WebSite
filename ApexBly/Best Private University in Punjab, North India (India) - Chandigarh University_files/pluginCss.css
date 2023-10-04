@@ -1,0 +1,158 @@
+
+
+    .mobile_lobo {
+        display: none;
+        background: red;
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        width:100%;
+        height: 0;
+        z-index: 999999;
+    }
+
+
+
+@media screen and (max-width: 768px) {
+  .mobile_lobo{display: block;}
+       .desktop_lobo {display: none;}
+
+}
+    #closeB{
+        border:none;
+        position:fixed;
+        border-radius:50%;
+        bottom: 78%;
+        right: 20px;
+        font-size: 18px;
+        padding: 3px;
+        padding-left: 5px;
+        padding-right: 5px;
+        display: inline-block;
+        background: transparent;
+        color:white;
+        z-index: 1000000;
+        font-family: arial;
+        visibility: hidden;
+
+    }
+    #mascot{
+        width:75px;
+        height:75px;
+        border:0;
+        visibility: visible;
+        position:fixed;
+        bottom:20px;
+        right:25px;
+        z-index: 999999;
+        border-radius: 50%;
+        cursor: pointer;
+        /*background: lightgrey;*/
+
+    }
+    #mascot2{
+        /*width:100px;*/
+        /*height:75px;*/
+        border:0;
+        visibility: visible;
+        position:fixed;
+        bottom:calc(5% + 75px);
+        bottom: -webkit-calc(5% + 75px); 
+        bottom:    -moz-calc(5% + 75px); 
+        bottom:      -o-calc(5% + 75px);
+        right:4.5%;
+        z-index: 999999;
+            background-image: linear-gradient(to right,#ef4023 , #cf3026);
+            background-color:#1CB5E0;
+        color:white;
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+        border-radius: 50px 80px 15px;
+        padding: 10px 15px;
+        font-size: 14px;
+        /*border-radius:8px;*/
+        font-family: "Material Fonts",sans-serif;
+    }
+    #iframe2{
+        height:36%;
+        width:80%;
+        position: fixed;
+        bottom:0;
+        right:0;
+        z-index: 999999;
+    }
+    #my-iframe{
+        height:80%;
+        z-index: 999999;
+        right: 0px;
+        /*visibility: hidden;*/
+        display: none;
+    }
+
+    /* mobile */
+    div.work{
+        /*position: fixed;*/
+        bottom: 45px;
+        right: 0;
+        width: 100px;
+        position: absolute;
+        right: 0;
+        z-index:999999;
+
+    }
+    .mobile_lobo_container{
+        position: relative;
+        width: 100%;
+        background: pink;
+    }
+    #dialog1Mobile{
+        position: absolute;
+        font-family: 'Material Fonts', sans-serif;
+        bottom:160px;
+        right:5%;
+        display: inline-block;
+        padding:5px;
+        width:85%;
+        margin:0px;
+        font-weight: bold;
+        font-size: 17px;
+        text-align: center;
+            background-image: linear-gradient(to right,#ef4023 , #cf3026);
+            background-color:#1CB5E0;
+        color:white;
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+        border-radius: 50px 80px 15px;
+    }
+    #dialog2Mobile{
+        position: absolute;
+        font-family: 'Material Fonts', sans-serif;
+        bottom:115px;
+        right:5%;
+        display: inline-block;
+        padding:5px;
+        width:70%;
+        margin:0px;
+        font-weight: bold;
+        font-size: 17px;
+        text-align: center;
+        background-image: linear-gradient(to right,#ef4023 , #cf3026);
+        background-color:#1CB5E0;
+        color:white;
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+        border-radius: 50px 80px 15px;
+    }
+    #closeBMobile{
+            position:fixed;
+            cursor: pointer;
+            border-radius: 50%;
+            padding: 3px 8px;
+            font-weight: bold;
+            font-size: 15px;
+            bottom:200px;
+            right:5px;
+            border: none;
+            text-decoration: none;
+            display: inline-block;
+            background-color:#cf3026;
+            color:white;
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    }

@@ -1,0 +1,77 @@
+
+a{-webkit-transition:all .3s ease-in-out;-moz-transition:all .3s ease-in-out;transition:all .3s ease-in-out;}
+a:hover{ text-decoration: none; }
+ul{ padding: 0; margin: 0;}
+h1,h2,h3,h4,h5,h6{ margin: 0; }
+p{ margin: 0; font-size: 16px; line-height: 22px; font-weight: 300}
+
+body{font-family: 'Roboto', sans-serif; font-weight: 300;}
+
+html, body{ height: 100%; width: 100%;}
+
+.main-heading{ margin-bottom: 26px;}
+.main-heading h2{ vertical-align: middle; font-size: 40px; color: #000; text-transform: uppercase;}
+.main-heading h6{ display: inline-block; vertical-align: middle; font-size: 20px; color: #000; font-weight: 300; position: relative;text-transform: lowercase;}
+/*.main-heading h6::after{ content: ''; width: 40px; height: 2px; background: #fff; position: absolute; left: -30px; top: 7px;}*/
+
+.main-heading.black-color h2{ color: #000;}
+.main-heading.black-color h6{ color: #000;}
+.main-heading.black-color h6::after{ background: #ca1d20}
+
+.vison-block{}
+.vison-block p{ display: inline-block; vertical-align: middle; font-size: 16px; color: #000; font-weight: 300; position: relative;}
+
+.values-list{ margin-top: 0px;margin-bottom: 14px;}
+.values-list .li{ background: rgba(117, 117, 117, 0.3); padding: 15px; border-radius: 6px; margin-bottom: 20px; box-shadow: 0 0 20px rgba(0,0,0,0.1);}
+.values-list .li span{ width: 25%; float: left; padding-left: 15px;}
+.value-cont{ float: left; width: 75%;}
+.value-cont h4{font-size: 24px; color: #fff; margin-bottom: 10px;}
+.value-cont ul li{ font-size: 16px; font-weight: 300; color: #fff; margin-bottom: 10px; list-style-type: none; position: relative;}
+.value-cont ul li::before{ content: ''; height: 5px; width: 5px; background: #fff568; border-radius: 50%; position: absolute; left: -15px; top: 9px;}
+.value-cont ul li:last-child{ margin-bottom: 0;}
+.yellow-bg {
+	min-height: 142px;
+}
+
+@media only screen and ( max-width: 1199px){
+	.main-heading h2{ font-size: 34px;}
+	.values-list .li span{ width: 30%;}
+	.value-cont{ width: 70%;}
+}
+@media only screen and ( max-width: 991px){
+	.main-heading h2{ font-size: 30px;}
+	.main-heading h6{ font-size: 11px;}
+	.values-list .li span{ width: 40%;}
+	.value-cont{ width: 60%;}
+	.main-heading h6{ display: block; padding-left: 0;}
+	.main-heading h6::after{ display: none}
+	.feat-thumb{ min-height: 290px;}
+}
+@media only screen and ( max-width: 767px){
+	.vison-block{ margin: 0 0 30px 0}
+	.values-list .li span{ width: 30%;}
+	.value-cont{ width: 70%;}
+	.job-thumb{ margin: 15px 0}
+	.feat-thumb{ min-height: inherit;}
+}
+@media only screen and ( max-width: 575px){
+	.values-list .li span{ padding-left: 0}
+	.values-list .li span img{ width: 45px;}
+	.main-heading h2{ font-size: 28px;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

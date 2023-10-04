@@ -1,0 +1,575 @@
+@charset "utf-8";
+@media (min-width:1200px) {
+}
+@media (min-width:992px) and (max-width:1199px) {
+.count__block h3 {
+	font-size: 30px;
+}
+main#wrapper {
+	overflow: visible !important;
+}
+.page__section .white-section, .page__section .content__section {
+	bottom: 0 !important;
+	left: 0 !important;
+	position: relative;
+	right: 0 !important;
+	top: 0 !important;
+	transform: translate(0px, 0px) !important;
+	width: 100%;
+}
+.clients__section .logos__block {
+	display: block;
+	position: relative;
+	text-align: center;
+	padding-bottom: 0;
+}
+.clients__section .logos__block {
+	text-align: center;
+	padding-bottom: 65%;
+	margin-top: 30px;
+}
+.first .page__section .white-content-section {
+	height: auto;
+}
+.intro__section.non-covered .white-section {
+	margin-top: 150px;
+	z-index: 1;
+}
+.page__section {
+	min-height: 0;
+	padding: 45px 30px;
+	height: auto;
+}
+.page__section .white-section .white-content-section {
+	min-height: 330px;
+}
+.page__title.title--large {
+	font-size: 30px;
+}
+ul.placement-companies {
+	margin: 30px 0 30px 20px;
+	text-align: center;
+}
+.table-placement-chart {
+	margin-top: 0;
+}
+.table-placements-custom {
+	margin-bottom: 0;
+}
+div.bhoechie-tab-container {
+	width: 100% !important;
+	margin-left: 0px !important;
+}
+.count__block .count__hover {
+	font-size: 14px;
+}
+.count__block .count__hover {
+	top: 17px;
+}
+.clients__section .logos__block .logos-list__block {
+	width: 100%;
+	top: 0;
+	position: relative;
+}
+.clients__section .logos__block {
+	width: 100%;
+	display: block;
+	position: relative;
+	text-align: center;
+	padding-bottom: 10px;
+	margin-top: 30px;
+	margin-right: 0;
+}
+.clients__section .logos__block .logo__block {
+	position: relative;
+	transform: translate(0%, 0%);
+	top: 0;
+	display: inline-block;
+	padding: 22px;
+	border-radius: 120px;
+	height: 120px;
+	line-height: 120px;
+	width: 120px;
+	margin-right: 20px;
+}
+.clients__section .logos__block .logos-list__block {
+	height: auto;
+	transform: translate(0%, 0%);
+	left: 0;
+}
+.logo__block img {
+	display: inline-block;
+	text-align: center;
+}
+.count__block h2 {
+	font-size: 80px;
+}
+.count__block h3 {
+	font-size: 30px;
+}
+.count__block .count__text {
+	font-size: 23px;
+	margin-top: 81px;
+	margin-bottom: 32px;
+}
+.table-placement-chart h2 {
+	margin-top: 30px;
+	font-size: 30px;
+}
+.table-placement-chart .table-placements-custom th {
+	font-size: 15px;
+}
+.table-placement-chart .table-placements-custom td:nth-child(1) {
+	font-size: 12px;
+}
+.table-placement-chart .table-placements-custom td:nth-child(2) {
+	font-size: 12px;
+}
+.projects__section {
+	display: flex;
+	flex-direction: column;
+}
+.content__section {
+	order: 2;
+}
+.white-section {
+	order: 1;
+}
+.clients__section {
+	display: flex;
+	flex-direction: column;
+}
+.content__section {
+	order: 2;
+}
+.white-section {
+	order: 1;
+}
+.team__section {
+	display: flex;
+	flex-direction: column;
+}
+.content__section {
+	order: 2;
+}
+.white-section {
+	order: 1;
+}
+.page__section .white-section {
+	z-index: 1;
+}
+#lightSlider h3 {
+	margin-left: 0;
+}
+.count__block h2 span, .count__block h2 {
+	font-size: 40px;
+	text-transform: uppercase;
+}
+.leading-recruiters-wrap h2 {
+	font-size: 38px;
+	margin-bottom: 0;
+}
+}
+@media (min-width:768px) and (max-width:991px) {
+main#wrapper {
+	overflow: visible !important;
+}
+.page__section .white-section, .page__section .content__section {
+	bottom: 0 !important;
+	left: 0 !important;
+	position: relative;
+	right: 0 !important;
+	top: 0 !important;
+	transform: translate(0px, 0px) !important;
+	width: 100%;
+}
+.clients__section .logos__block {
+	display: block;
+	position: relative;
+	text-align: center;
+	padding-bottom: 0;
+}
+.clients__section .logos__block {
+	text-align: center;
+	padding-bottom: 65%;
+	margin-top: 30px;
+}
+.first .page__section .white-content-section {
+	height: auto;
+}
+.intro__section.non-covered .white-section {
+	margin-top: 150px;
+	z-index: 1;
+}
+.page__section {
+	min-height: 0;
+	padding: 45px 30px;
+	height: auto;
+}
+.page__section .white-section .white-content-section {
+	min-height: 330px;
+}
+.page__title.title--large {
+	font-size: 30px;
+}
+ul.placement-companies {
+	margin: 30px 0 30px 20px;
+	text-align: center;
+}
+.table-placement-chart {
+	margin-top: 0;
+}
+.table-placements-custom {
+	margin-bottom: 0;
+}
+div.bhoechie-tab-container {
+	width: 100% !important;
+	margin-left: 0px !important;
+}
+.count__block .count__hover {
+	font-size: 14px;
+}
+.count__block .count__hover {
+	top: 17px;
+}
+.clients__section .logos__block .logos-list__block {
+	width: 100%;
+	top: 0;
+	position: relative;
+}
+.clients__section .logos__block {
+	width: 100%;
+	display: block;
+	position: relative;
+	text-align: center;
+	padding-bottom: 10px;
+	margin-top: 30px;
+	margin-right: 0;
+}
+.clients__section .logos__block .logo__block {
+	position: relative;
+	transform: translate(0%, 0%);
+	top: 0;
+	display: inline-block;
+	padding: 22px;
+	border-radius: 120px;
+	height: 120px;
+	line-height: 120px;
+	width: 120px;
+	margin-right: 20px;
+}
+.clients__section .logos__block .logos-list__block {
+	height: auto;
+	transform: translate(0%, 0%);
+	left: 0;
+}
+.logo__block img {
+	display: inline-block;
+	text-align: center;
+}
+.count__block h2 {
+	font-size: 80px;
+}
+.count__block h3 {
+	font-size: 30px;
+}
+.count__block .count__text {
+	font-size: 23px;
+	margin-top: 81px;
+	margin-bottom: 32px;
+}
+.table-placement-chart h2 {
+	margin-top: 30px;
+	font-size: 30px;
+}
+.table-placement-chart .table-placements-custom th {
+	font-size: 15px;
+}
+.table-placement-chart .table-placements-custom td:nth-child(1) {
+	font-size: 12px;
+}
+.table-placement-chart .table-placements-custom td:nth-child(2) {
+	font-size: 12px;
+}
+.projects__section {
+	display: flex;
+	flex-direction: column;
+}
+.content__section {
+	order: 2;
+}
+.white-section {
+	order: 1;
+}
+.clients__section {
+	display: flex;
+	flex-direction: column;
+}
+.content__section {
+	order: 2;
+}
+.white-section {
+	order: 1;
+}
+.team__section {
+	display: flex;
+	flex-direction: column;
+}
+.content__section {
+	order: 2;
+}
+.white-section {
+	order: 1;
+}
+.page__section .white-section {
+	z-index: 1;
+}
+#lightSlider h3 {
+	margin-left: 0;
+}
+.count__block h2 span, .count__block h2 {
+	font-size: 40px;
+	text-transform: uppercase;
+}
+.leading-recruiters-wrap h2 {
+	font-size: 38px;
+	margin-bottom: 0;
+}
+}
+@media (max-width:767px) {
+main#wrapper {
+	overflow: visible !important;
+}
+.page__section .white-section, .page__section .content__section {
+	bottom: 0 !important;
+	left: 0 !important;
+	position: relative;
+	right: 0 !important;
+	top: 0 !important;
+	transform: translate(0px, 0px) !important;
+	width: 100%;
+}
+.first .page__section .white-content-section {
+	height: auto;
+}
+.intro__section.non-covered .white-section {
+	margin-top: 0px;
+	z-index: 1;
+}
+.page__section {
+	min-height: 0;
+	padding: 45px 30px;
+	height: auto;
+}
+.page__section .white-section .white-content-section {
+	min-height: 260px;
+}
+.page__title.title--large {
+	font-size: 30px;
+}
+ul.placement-companies {
+	margin: 80px 0 0px 20px;
+	text-align: center;
+}
+.table-placement-chart {
+	margin-top: 0;
+}
+.table-placements-custom {
+	margin-bottom: 0;
+}
+div.bhoechie-tab-container {
+	width: 100% !important;
+	margin-left: 0px !important;
+}
+.clients__section .logos__block .logos-list__block {
+	width: 100%;
+	top: 0;
+	position: relative;
+}
+.clients__section .logos__block {
+	width: 100%;
+	display: block;
+	position: relative;
+	text-align: center;
+	padding-bottom: 10px;
+	margin-top: 30px;
+	margin-right: 0;
+}
+.clients__section .logos__block .logo__block {
+	position: relative;
+	transform: translate(0%, 0%);
+	top: 0;
+	display: inline-block;
+	padding: 22px;
+	border-radius: 120px;
+	height: 120px;
+	line-height: 120px;
+	width: 120px;
+	margin-right: 20px;
+}
+.clients__section .logos__block .logos-list__block {
+	height: auto;
+	transform: translate(0%, 0%);
+	left: 0;
+}
+.logo__block img {
+	display: inline-block;
+	text-align: center;
+}
+.count__block h2 {
+	font-size: 80px;
+}
+.count__block h3 {
+	font-size: 30px;
+}
+.count__block .count__text {
+	font-size: 23px;
+	margin: 20px 0 0;
+}
+.count__block .count__text {
+	transform: rotate(0deg);
+}
+.count__block .count__hover {
+	transform: translate(0px, 0%);
+ position:relative top:0;
+	padding: 0;
+	display: none;
+}
+.page__section .white-section .white-content-section {
+	display: inline-block;
+}
+.table-placement-chart h2 {
+	margin-top: 30px;
+	font-size: 25px;
+	margin-bottom: 15px;
+}
+.table-placement-chart .table-placements-custom th {
+	font-size: 14px;
+}
+.table-placement-chart .table-placements-custom td:nth-child(1) {
+	font-size: 12px;
+}
+.table-placement-chart .table-placements-custom td:nth-child(2) {
+	font-size: 12px;
+}
+.projects__section {
+	display: flex;
+	flex-direction: column;
+}
+.content__section {
+	order: 2;
+}
+.white-section {
+	order: 1;
+}
+.clients__section {
+	display: flex;
+	flex-direction: column;
+}
+.content__section {
+	order: 2;
+}
+.white-section {
+	order: 1;
+}
+.team__section {
+	display: flex;
+	flex-direction: column;
+}
+.content__section {
+	order: 2;
+}
+.white-section {
+	order: 1;
+}
+.withus__section {
+	display: flex;
+	flex-direction: column;
+}
+.content__section {
+	order: 2;
+}
+.white-section {
+	order: 1;
+}
+div.bhoechie-tab-content {
+	padding-top: 0px;
+	padding-left: 0;
+}
+ul.placement-companies li:nth-child(3n), ul.placement-companies li:nth-child(4n) {
+	margin-bottom: 0;
+}
+ul.placement-companies li p {
+	font-size: 14px;
+	line-height: 18px;
+}
+div.bhoechie-tab-content {
+	text-align: center;
+}
+.bhoechie-tab-content.active > center {
+	display: inline-block;
+}
+.page__section .white-section {
+	z-index: 1;
+}
+ul.placement-companies {
+	margin-left: 0;
+}
+ul.placement-companies li {
+	margin-bottom: 20px;
+}
+#lightSlider h3 {
+	font-size: 22px;
+	margin-left: 0;
+}
+ul.placement-companies li p {
+	line-height: 36px;
+}
+.count__block h2 span, .count__block h2 {
+	font-size:25px;
+	text-transform: uppercase;
+}
+ul.placement-companies li p strong {
+	font-size:32px;
+}
+.leading-recruiters-wrap h2{
+	font-size:31px;
+	margin-bottom:0;
+}
+}
+@media (max-width:467px) {
+.count__block .count__text {
+	transform: rotate(0deg);
+}
+.count__block .count__hover {
+	transform: translate(0px, 0%);
+ position:relative top:0;
+	padding: 0;
+}
+div.bhoechie-tab-content {
+	padding-top: 50px;
+	padding-left: 0;
+}
+ul.placement-companies li p {
+	line-height: 28px;
+}
+ul.placement-companies li p strong {
+	font-size: 32px;
+}
+ul.placement-companies li, ul.placement-companies li:nth-child(3n) {
+	margin-right: 0;
+	display: block;
+	margin-bottom: 20px;
+}
+.clients__section .logos__block .logo__block {
+	border-radius: 90px;
+	height: 90px;
+	line-height: 90px;
+	margin-right: 0;
+	padding: 10px;
+	width: 90px;
+}
+.leading-recruiters-wrap h2{
+	font-size:26px;
+}
+}

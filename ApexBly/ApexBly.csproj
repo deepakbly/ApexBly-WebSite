@@ -1,0 +1,499 @@
+﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9863B045-ED11-47E1-9A56-24EBD2DC0B32}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ApexBly</RootNamespace>
+    <AssemblyName>ApexBly</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="aboutus.html" />
+    <Content Include="Academics_Overview.html" />
+    <Content Include="Admissions.html" />
+    <Content Include="Admission_Criteria.html" />
+    <Content Include="After_12th.html" />
+    <Content Include="After_Graduation.html" />
+    <Content Include="After_Tenth.html" />
+    <Content Include="Apex_Advantages.html" />
+    <Content Include="Apex_Scholarships.html" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\4EU4MseSW9A.html" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\Aashika-Thakur.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\Aashish.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\aastha-malhotra.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\abdul-kalam.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\Abhinandan-Saini.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\Abhinandhan.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\abhinav.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\Abhishek-Anand.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\Abhishek-Pathanaia.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\abhishek.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\Adarsh-Chauhan.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\Aditi-Priya.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\aditi-sharma.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\aditya-kumar.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\aditya-sharma.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\agrima.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\Ahbab-Siddiqui.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\ahmad-hanan-mustafa.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\Akanksha.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\akash-18.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\akash-kumar-mishra-18.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\akshit-verma.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\akshita-mathur.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\Alisha-Thapar.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\aman-singh.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\Amanjot-Kaur.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\Amardeep-Kaur.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\amit-rana.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\Amresh-Mishra.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\anand-yadav.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\ananya.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\animate.css" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\anis.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\anish-narula.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\anita-jhapa-18.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\anjali.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\ankit-arora-18.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\Ankit-Rai.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\ankit.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\Ankush.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\Ansari.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\anshul-bansa-18.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\Archna.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\arindam-taak.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\asmin-bhujel.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\ayush-sharma-18.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\ayushi-chauhan.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\Ayushi.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\AyuSrivastav.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\banti-singh.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\Bikalp.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\bonthura-ing.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\bootstrap.min.css" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\chetan-sharma.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\Chetan.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\cu-bot.png" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\cu-logo-mob.png" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\cu-logo-sm.png" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\cu-logo-small.png" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\cu-logo.png" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\cu-placements1.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\cu-placements2.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\cucet-logo.png" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\cucet-onload-banner.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\deki.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\devansh-dube.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\Devi-Gurung.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\digbijay-chaudhary.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\diksha-18.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\diksha-sethi.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\disha.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\divya.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\divyam-kumar-18.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\Divyanshi.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\dr-cheema.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\f%281%29.txt" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\f%282%29.txt" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\f%283%29.txt" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\f.txt" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\font-awesome.min.css" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\fonts.css" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\founder-avtar.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\gagan.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\geet-dhingra.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\girish-mehta-18.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\girish.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\google.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\Grant-Njavwa.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\gunjita-kashyap.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\gurpreet-caur.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\gurpreet-kaur.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\harjeet-kaur.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\harshdeep.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\harshita-rajpal.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\ibadondor-marboh.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\ibm.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\icon1.png" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\icon2.png" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\icon3.png" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\icon4.png" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\jamandeep-singh.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\jasleen.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\jasmeet-kaur.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\Joseph-Landes.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\jquery.min.js" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\kanika.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\karan-virdi.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\karan.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\Kehar-Singh.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\kulbir.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\kuldip-nayar.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\kumar-kartik.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\kumar.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\kunwar-bharat-singh.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\lakshy-18.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\loader.png" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\lohit-18.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\mahenoor.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\mahesh-bhatt.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\mandeep-singh.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\manika-mangla.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\Manisha-Prashar.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\mannat-thakur.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\manoti-aggarwal.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\Manpreet-Kaur.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\manvinder.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\material-components-web.min.css" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\mayank-sood-18.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\Mayank-Tripathi.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\Mehak-Verma.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\midlesex.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\Mir-Maria.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\mohit-k.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\Mohit-Rawat.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\Mohit-Sharma.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\mohit.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\muhammad-yunus.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\mycss.css" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\naac-logo.png" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\naac-news.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\naman-sharma-18.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\Namgail.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\Navjyoti.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\navpreet.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\neel-chauhan.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\news10.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\news11.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\news12.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\news6.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\news7.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\news8.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\news9.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\Nirvan-Gurunh.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\nitin.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\Nitish-Kumar.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\ongc.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\owl.carousel.min.css" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\Pankaj.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\Parag-Das.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\pardeep-kaur-18.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\Pardeep-Kumar.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\Parmpal-Singh.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\Parul-Asijaa.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\Pibon-Gogoi.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\play-btn.png" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\pluginCss.css" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\Poorvasha.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\prabhjot.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\pranav-18.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\Pranjal.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\preeti-18.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\preetika-sharma.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\prerna.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\priyanjit-mazumder.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\priyanka-18.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\Priyanka.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\Priyanshi.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\punika.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\Rahul-Kumar.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\Rahul-Patyal.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\Rahul-Singh.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\rajesh-kumar.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\Rajpreet-Garahe.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\ranking-icon-1.png" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\ranking-icon-2.png" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\ranking-icon-3.png" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\ravleen-anand.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\ravneet-kaur.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\responsive.css" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\ridam.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\Rishab-Gupta.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\Rishabh.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\Ritvik-Sharma.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\robin-singla.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\roger-konberg.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\Rohan-Agarwal.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\rohan-arora.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\rohit-tiwari.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\roni.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\ruchi.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\Rupantar.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\ruponita-18.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\S-Sadagoppan.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\sai-teja-18.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\Saima.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\sandeep.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\sarabjit-singh.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\sarbjot-kaur.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\sd-sharma.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\Shagun-Tripathi.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\Shaifali.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\shanu.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\sheetal-sharma-18.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\shefali-sharma.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\shivraj-patil.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\shivya-18.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\shrey-pokhriyal.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\Shreya-Sachdeva.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\Shristi-Bhardwaj.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\siddharth-arora.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\simmi-sharma.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\simran-sharma.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\Sonal-Pandita.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\style.css" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\supreme-cheema.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\supriya-bhatt-18.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\sushma-kasat.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\Tanya-Sharma.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\tech-mahindra.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\timey2-1.png" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\timeycu.html" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\ton-sinhthanh.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\udit-sareen-18.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\uk.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\Umar.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\unai-logo.png" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\university-pic.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\user-img.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\Varun-Raj.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\varun.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\vasu-narang.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\Vatshal-Parikh.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\Vikramjeet-Singh.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\Vinit-Bhamare.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\virendra.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\vishal-18.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\vivek-sharma-18.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\volvo.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\www-player-webp-vflu2oWSj.css" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\xCLo6KhU1Ao.html" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\yamini-panta-new.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\Yamini-Panta.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\yashwant-verma.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\Yogesh-Kochhar.jpg" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\zainus-darandar.jpg" />
+    <Content Include="College _of_Pharmacy.html" />
+    <Content Include="Commerce.html" />
+    <Content Include="Computer_Applications.html" />
+    <Content Include="Contactus.html" />
+    <Content Include="Core_Values.html" />
+    <Content Include="CSS\core-value-page.css" />
+    <Content Include="CSS\inn-theme.css" />
+    <Content Include="CSS\main.css" />
+    <Content Include="CSS\media.css" />
+    <Content Include="CSS\mystyle.css" />
+    <Content Include="CSS\page.css" />
+    <Content Include="CSS\page1.css" />
+    <Content Include="CSS\prettify.css" />
+    <Content Include="CSS\style%281%29.css" />
+    <Content Include="CSS\sweet-alert.css" />
+    <Content Include="CSS\why-cu.css" />
+    <Content Include="Education.html" />
+    <Content Include="Engineering.html" />
+    <Content Include="gallery.html" />
+    <Content Include="Home.html" />
+    <Content Include="How_to_Apply.html" />
+    <Content Include="Images\12-1.JPG" />
+    <Content Include="Images\12-2.JPG" />
+    <Content Include="Images\12-3.JPG" />
+    <Content Include="Images\15.png" />
+    <Content Include="Images\16-1.JPG" />
+    <Content Include="Images\16-3.JPG" />
+    <Content Include="Images\16.png" />
+    <Content Include="Images\20.jpg" />
+    <Content Include="Images\23.jpg" />
+    <Content Include="Images\4.JPG" />
+    <Content Include="Images\6.JPG" />
+    <Content Include="Images\906701_742772992443892_553679031292163236_o.jpg" />
+    <Content Include="Images\airindia_logo.jpg" />
+    <Content Include="Images\Apex-scholarships.jpg" />
+    <Content Include="Images\Ashok-Adlakha-300x199-1.jpg" />
+    <Content Include="Images\bhel.png" />
+    <Content Include="Images\carrer-icon-1.png" />
+    <Content Include="Images\carrer-icon-2.png" />
+    <Content Include="Images\carrer-icon-3.png" />
+    <Content Include="Images\carrer-icon-4.png" />
+    <Content Include="Images\DSC_0066-1-1-1.jpg" />
+    <Content Include="Images\DSC_0375.JPG" />
+    <Content Include="Images\DSC_0552.JPG" />
+    <Content Include="Images\DSC_1850.JPG" />
+    <Content Include="Images\DSC_1852.JPG" />
+    <Content Include="Images\DSC_2129.JPG" />
+    <Content Include="Images\DSC_2163.JPG" />
+    <Content Include="Images\hp_logo.jpg" />
+    <Content Include="Images\iciciBank_logo.jpg" />
+    <Content Include="Images\icon2.png" />
+    <Content Include="Images\icon3.png" />
+    <Content Include="Images\icon4.png" />
+    <Content Include="Images\JustDial-1.png" />
+    <Content Include="Images\kotak_logo.jpg" />
+    <Content Include="Images\logo.png" />
+    <Content Include="Images\pattren.jpg" />
+    <Content Include="Images\pg-programs.png" />
+    <Content Include="Images\R-P-Singh-Chairman-768x509.jpg" />
+    <Content Include="Images\RAJ_5421.JPG" />
+    <Content Include="Images\schlor-17-18.jpg" />
+    <Content Include="Images\sp-programs.png" />
+    <Content Include="Images\ug-programs.png" />
+    <Content Include="Institute.html" />
+    <Content Include="JS\analytics.js" />
+    <Content Include="JS\bootstrap.min.js" />
+    <Content Include="JS\fbevents.js" />
+    <Content Include="JS\gtm.js" />
+    <Content Include="JS\index.js" />
+    <Content Include="JS\index1.js" />
+    <Content Include="JS\jquery.bxslider.min.js" />
+    <Content Include="JS\lethargy.min.js" />
+    <Content Include="JS\main.js" />
+    <Content Include="JS\main1.js" />
+    <Content Include="JS\moatframe.js" />
+    <Content Include="JS\notify-visitors-1.0.js" />
+    <Content Include="JS\nv-push.js" />
+    <Content Include="JS\programdetails.js" />
+    <Content Include="JS\roundtrip.js" />
+    <Content Include="JS\why-cu.js" />
+    <Content Include="Leadership.html" />
+    <Content Include="Leet_Programs.html" />
+    <Content Include="Management_bba_mba.html" />
+    <Content Include="Polytechnic.html" />
+    <Content Include="Recognisation_Approval.html" />
+    <Content Include="Teaching_Practice.html" />
+    <Content Include="Vision_Mission.html" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\633353676751186" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\ad_status.js" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\analytics.js" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\base.js" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\bootstrap.min.js.download" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\build.js" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\embed.js" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\fbevents.js" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\gtm.js" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\icon" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\jarallax-video.js.download" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\jarallax.js" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\jquery.min.js%281%29.download" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\jquery.min.js%282%29.download" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\jquery.touchSwipe.min.js.download" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\lethargy.min.js.download" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\main.js" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\mdb.min.js" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\owl.carousel.min.js" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\oZZxvWTVVLFnU-9EeC-APzeiGqF7nLMi280xkmP7QKA.js" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\remote.js" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\smartscroll.js" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\spp.pl.download" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\wow.min.js" />
+    <Content Include="Best Private University in Punjab, North India %28India%29 - Chandigarh University_files\www-embed-player.js" />
+    <None Include="packages.config" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>49811</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:49811/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

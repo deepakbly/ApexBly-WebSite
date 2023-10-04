@@ -1,0 +1,475 @@
+.sservice {
+	background: rgba(255, 212, 109, 0.9) none repeat scroll 0 0;
+	padding: 35px 0;
+	width: 100%;
+}
+.sservice-top {
+	padding-top: 180px;
+}
+.sservice h1 {
+	margin-bottom: 15px;
+	font-size: 36px;
+	padding-top: 10px;
+	color: #000;
+}
+.sservice h2 {
+	color: #000;
+	margin-bottom: 5px;
+	padding-top: 10px;
+	text-transform: uppercase;
+}
+.sservice p {
+	font-size: 14px;
+	padding-bottom: 10px;
+	line-height: 23px;
+	color: #000;
+}
+.sservice p em {
+	font-size: 14px;
+}
+.sservice hr {
+	display: block;
+	height: 1px;
+	border: 0;
+	border-top: 1px solid #f6b61d;
+	margin: 1em 0;
+	padding: 0;
+}
+.sservice h3 {
+	color: #c8102e;
+	font-size: 17px;
+	font-weight:900;
+}
+ul.list-dot{
+	margin-top:20px;
+}
+ul.list-dot li {
+	font-size: 14px;
+	line-height:22px;
+	padding-bottom: 10px;
+	list-style-type: circle;
+	margin-left: 13px;
+	padding-left: 15px;
+}
+.how-works {
+	border: 1px solid #f2c51e;
+	border-radius: 4px;
+	padding: 15px;
+}
+.extrah {
+	padding: 0 30px;
+}
+.extrah::before {
+	content: "{";
+	display: table;
+	font-size: 71px;
+	left: -40px;
+	position: relative;
+	top: 55px;
+}
+.extrah::after {
+	content: "}";
+	display: table;
+	font-size: 71px;
+	left: 100%;
+	position: relative;
+	top: -57px;
+}
+.acacenter ul {
+	color: #322700;
+	font-size: 14px;
+	line-height: 22px;
+	margin: 20px 0 0 0;	
+}
+.acacenter ul li {
+	border: 1px solid rgb(0, 0, 0);
+	border-radius: 4px;
+	display: inline-block;
+	margin-right: 1%;
+	padding: 8px 15px;
+	text-align: center;
+	width:18.9%;
+	min-height: 110px;	
+	vertical-align:middle;
+}
+.acacenter ul li:last-child{
+	margin-right:0;
+}
+.acacenter ul li span {
+	font-size: 16px;
+	color: #000;
+	font-weight: bold;
+}
+.academics-links ul li {
+	border-bottom: 1px dashed #f5c556 !important;
+	list-style-image: url(../images/arrow-related-links1.png) !important;
+}
+.academics-links ul li a {
+	color: #000 !important;
+}
+.academics-links span {
+	color: #000 !important;
+	border-bottom: 1px dashed #f5c556;
+	font-size: 16px;
+}
+.acacenter {
+	float: left;
+	width: 100%;
+}
+.parallax {
+    background-attachment: fixed;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax-main{    
+	padding:100px 0;
+}
+.parallax-1{
+    background-image:url(../images/cu-academics.jpg);    
+}
+.parallax-2{
+    background-image:url(../images/transport1.jpg);    
+}
+.parallax-3{
+    background-image:url(../images/about-v.jpg);    
+}
+.parallax-4{
+    background-image:url(../images/transport1.jpg);    
+}
+.p-red{
+	background: rgba(246, 67, 78, 0.8);
+}
+.p-blue{
+	background: rgba(0, 156, 185, 0.9);
+}
+.p-violet{
+	background: rgba(131, 93, 190, 0.8);
+}
+.p-green{
+	background: rgba(0, 168, 99, 0.8);
+}
+.cu-academics {  
+    width: 100%;
+}
+.cu-academics h2{
+   color:#fff;
+   font-size:36px;
+   margin-bottom:6px;
+   text-transform:uppercase;
+}
+.cu-academics p{
+   color:#fff;
+   font-size:15px;
+}
+.cu-academics ul.list-dot li {
+	 color:#fff;
+     font-size:15px;
+	 line-height:20px;
+	 margin-bottom:10px;
+}
+.sservice1 {
+	background: rgba(255, 212, 109, 0.3) none repeat scroll 0 0;
+	padding: 35px 0;
+	width: 100%;
+}
+.sservice1 h2 {
+    color: #333;
+    font-size:36px;
+    margin-bottom:6px;
+}
+.sservice1 p {
+    margin-bottom:25px;
+}
+.sservice1 h3 {
+    color: #333;
+    font-size:20px;
+	font-weight:400;
+}
+#academics .item{
+	min-height:200px;
+}
+.carousel-caption, .carousel-control {
+    color:#000 !important;
+    text-align: center;
+    text-shadow:none !important;
+}
+.carousel-control.left, .carousel-control.right{
+	background-image:none !important;
+}
+.carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next, .carousel-control .icon-prev{
+	 font-size:40px !important;
+}
+.carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev{
+	margin-left:-150px !important;
+}
+.carousel-control .glyphicon-chevron-right, .carousel-control .icon-next{
+	margin-right:-150px !important;
+}
+.programs-tailored{
+	margin-top:70px;
+	display:inline-block;
+}
+
+
+
+.academics-links{}	
+.academics-links ul{ margin-top: 10px;}	
+.academics-links ul li{ margin-bottom: 10px;}	
+
+
+.p-banner{ height: 400px; background-repeat: no-repeat !important; background-size: cover !important; background-attachment: fixed !important}
+
+
+
+
+/* academinc*/
+
+.padd-60{ padding: 40px 0;}
+
+.career-guide-wrap{ margin-top: 0 !important;}
+            .inn-body-wrap{ margin-top: 0 !important;}
+            .padd-wrapper{ background:#fff; padding: 35px 24px; margin-top:-70px; border-radius:6px; box-shadow: 0 0 30px rgba(0,0,0,0.2); margin-bottom:40px; position: relative; font-family: 'Montserrat', sans-serif !important;}
+            .prog-content{ padding: 0 !important;}
+            .prog-title h1{ font-size: 36px;}
+            .padd-wrapper h2{ font-size: 24px; font-weight: 600; margin-bottom: 5px;}
+            .padd-wrapper ul{ margin-bottom: 30px;}
+            .padd-wrapper ul li{ margin-bottom: 5px;}
+            .share-event{ margin-bottom: 0 !important;}
+            .breadcrumb-wrap{ margin-bottom: 30px;}
+            .prog-1col{ margin-bottom: 30px;}
+            .list-style{ padding-left: 25px;}
+            .list-style li{ list-style-type: disc;}
+            /*right side*/
+            .university-placement-tracker-wrap{ float: none !important;}
+            .rht-s a img{ width: 100%;}
+            .rht-s span.related-links-nav{ font-weight: 600; font-size: 16px; padding: 10px 0; display: block; color: #fff;}
+            .dowanload-registration{ margin-bottom: 15px;}
+            .dowanload-registration a{
+            background-image: linear-gradient(to right, #02b3e4 0%, #02ccba 100%);
+            box-shadow: 5px 5px 25px 0px rgba(46,61,73,0.2);
+            background-color: #02b3e4;
+            color: #fff;
+            font-size: 14px;
+            font-weight: 600;
+            text-transform: uppercase;
+            display: block; border-radius: 6px; text-align: center;
+            padding: 15px 0;
+            }
+            .dowanload-registration a:hover{ background: #333; color: #fff;}
+            .university-placement-tracker-wrap{ margin-top: 0 !important;}
+            /*right side*/
+            .list-style-color{ margin-top: 10px;}
+            .list-style-color li{ list-style-type: none; width: 48%; float: left; margin-right: 5px;position: relative;}
+            .list-style-color li a{ background: #ddd; padding: 10px 32px; border-radius: 2px; color: #fff; font-weight: 500; font-size: 14px; min-height: 44px;margin-bottom: 5px; display: flex; flex: 1; align-items: center;}
+            .list-style-color li a:hover{ opacity: 1;}
+            .list-style-color li:nth-child(1) a{ background: rgba(26,188,156,0.8);}
+            .list-style-color li:nth-child(2) a{ background: rgba(46,204,113,0.8);}
+            .list-style-color li:nth-child(3) a{ background: rgba(52,152,219,0.8);}
+            .list-style-color li:nth-child(4) a{ background: rgba(155,89,182,0.8);}
+            .list-style-color li:nth-child(5) a{ background: rgba(52,73,94,0.8);}
+            .list-style-color li:nth-child(6) a{ background: rgba(230,126,34,0.8);}
+            .list-style-color li:nth-child(7) a{ background: rgba(231,76,60,0.8);}
+            .list-style-color li:nth-child(8) a{ background: #0392ce;}
+            .list-style-color li::before {content: "\f19c";font: normal normal normal 13px/1 FontAwesome;
+             position: absolute;left: 8px;top: 13px;color: #fff;}
+            @media only screen and (max-width: 767px){
+            .list-style-color li{ width: 100%; margin: 0 0 8px 0 !important;}
+            }
+
+
+
+
+/*right side*/
+            #scroll-table{ box-shadow: 0 0 10px rgba(0,0,0,0.2); padding: 10px;}
+            #scroll-table thead{ background:#000; color:#fff;}
+            #scroll-table th{ background: #000; color: #fff;}
+            #scroll-table td{ border: 1px solid #ddd; padding: 10px;}
+            .list-style-no{ padding-left: 20px; margin-top: 15px;}
+            .list-style-no li{ list-style-type: decimal; margin-bottom: 10px !important;}
+            .list-style-romon{ padding-left: 20px; margin-top: 15px;}
+            .list-style-romon li{ list-style-type: lower-roman; margin-bottom: 10px !important;}
+			
+            @media only screen and (max-width: 600px){
+				#scroll-table td{
+					display: table-cell;
+					text-align: left;
+					font-size: 14px;
+				}
+				#scroll-table thead{
+					position: static;
+					clip: inherit;
+					height: auto;
+					width: 100%;
+					visibility: visible;
+				}
+				#scroll-table tr{
+					display: table-row;
+				}
+            }
+			
+			.dowanload-registration ul li{ display: inline-block; list-style-type:  none; margin-right: 5px;}
+			.dowanload-registration ul li a{ padding: 15px 30px;}
+			.dowanload-registration ul li.active a{ background: #333; color: #fff;}
+			
+			.scroll-table{ max-width: 100%; overflow: auto;}
+
+
+
+
+@media (min-width:992px) and (max-width:1199px) {
+.infodiv {
+	min-height: 355px;
+}
+.infodiv h2 {
+	font-size: 15px;
+}
+.acacenter ul li {
+	padding: 8px 6px;
+	font-size: 13px;
+	width: 48.5%;
+	margin-bottom:15px;
+	min-height: 68px;
+}
+.parallax-main {
+    padding:86px 0;
+}
+.cu-academics h2, .sservice1 h2{
+	font-size:26px;
+}
+.acacenter ul li span {
+	font-size: 16px;
+}
+.carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev{
+	margin-left:-85px !important;
+}
+.carousel-control .glyphicon-chevron-right, .carousel-control .icon-next{
+	margin-right:-85px !important;
+}
+}
+@media (min-width:768px) and (max-width:991px) {
+.how-works {
+	margin-bottom: 15px;
+}
+.infodiv {
+	min-height: auto;
+}
+.acacenter ul li {
+	vertical-align: top;
+	min-height:92px;
+	width: 48%;
+	margin-bottom:15px;
+}
+.parallax-main {
+    padding:55px 0;
+}
+.cu-academics h2, .sservice1 h2{
+	font-size:22px;
+}
+#academics .item {
+    min-height:340px;
+}
+.carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev{
+	margin-left:-65px !important;
+}
+.carousel-control .glyphicon-chevron-right, .carousel-control .icon-next{
+	margin-right:-65px !important;
+}
+}
+@media (max-width:767px) {
+.how-works {
+	margin-bottom: 15px;
+}
+.sservice h2 {
+	font-size: 15px;
+	margin-bottom: 10px;
+	padding-top: 5px;
+}
+.sservice h3 {
+	font-size: 14px;
+}
+.acacenter ul li:nth-child(2n), .acacenter ul li:nth-child(4n) {
+	margin-right: 0;
+}
+.acacenter ul li:first-child, .acacenter ul li:nth-child(2n) {
+	margin-bottom: 15px;
+}
+.acacenter ul li:last-child {
+	margin-bottom: 0;
+}
+.acacenter ul li {
+	vertical-align: top;
+	width: 48%;
+	font-size: 13px;
+	min-height: auto;
+}
+.sservice-top {
+    padding-top:30px;
+}
+.sservice h1{
+	font-size:22px;
+}
+.parallax-main {
+    padding:46px 0;
+}
+.cu-academics h2, .sservice1 h2{
+	font-size:22px;
+}
+.cu-academics p{
+	font-size:14px;
+}
+.cu-academics ul.list-dot li, ul.list-dot li{
+	font-size:14px;
+}
+#academics {
+    padding-top:36px;
+	margin-top:50px;
+}
+#academics h3{
+	text-align:center;
+	margin-bottom:5px;
+}
+.carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next, .carousel-control .icon-prev{
+	top:0 !important;
+}
+.carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev{
+	margin-left:0 !important;
+}
+.carousel-control .glyphicon-chevron-right, .carousel-control .icon-next{
+	margin-right:0 !important;
+}
+#academics .item {
+    min-height:330px;
+}
+.programs-custom{
+	text-align:center;
+	display:block;	
+}
+.programs-custom img{
+	display:inline-block;
+}
+.programs-tailored{
+	margin-top:0;
+}
+	
+	
+	.p-banner{
+		height: 200px;
+	}
+}
+@media (max-width:480px) {
+.acacenter ul li {
+	width: 100%;
+	margin-bottom: 15px;
+}
+}
+
+	
+	
+	
+	
+	
+	
+	
+	
+	

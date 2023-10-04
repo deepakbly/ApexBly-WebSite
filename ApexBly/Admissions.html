@@ -1,0 +1,1665 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+   
+    <meta name="description" content="Chandigarh University, Punjab offers Admissions 2020 for engineering, Architecture, Management, Hotel Management, Animation &amp; Multimedia, Pharmacy, Biotechnology, Computer Applications, Journalism, Mass communication, Film studies, and Specialized programs with IBM.">
+    <meta name="keywords" content="cu admissions, chandigarh university punjab admissions, admissions at chandigarh university panjab, admissions at cu, cu 2020 admissions, chandigarh university panjab 2020 admissions, chandigarh university, cu">
+    <meta name="country" content="in">
+    <meta http-equiv="Content-Language" content="en">
+    <meta name="Author" content="Chandigarh University">
+    <meta name="robots" content="INDEX, FOLLOW">
+    <link rel="canonical" href="http://www.cuchd.in/admissions/">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Chandigarh University, Punjab Admissions 2020 - Engineering, MBA, MCA, Multimedia, Pharmacy, Film Studies and Hotel Management Admissions in Panjab">
+    <meta property="og:description" content="Chandigarh University (CU), Punjab offers Admissions 2020 for engineering, Architecture, Management, Hotel Management, Animation &amp; Multimedia, Pharmacy, Biotechnology, Computer Applications, Journalism, Mass communication, Film studies, and Specialized programs with IBM.">
+    <meta property="og:url" content="http://www.cuchd.in/admissions/">
+
+    <link rel="shortcut icon" href="Images/logo.png" type="image/x-icon">
+    <title>India's Best Private College in Rampur</title>
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0;">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script async="" src="JS/fbevents.js"></script>
+    <script async="" src="JS/analytics.js"></script>
+    <script type="text/javascript" async="" src="./Overview_files/f.txt"></script>
+    <script type="text/javascript" src="JS/notify-visitors-1.0.js"></script>
+    <script async="" src="JS/gtm.js"></script>
+    <script src="./Overview_files/jqu3C23.js.download" type="text/javascript"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+        });
+
+        function Change(id) {
+            var c = $(id).attr('class').split('_')[1];
+            $('.div_details:not(.div_' + c + ')').hide();
+            if ($('.div_' + c).css('display').indexOf('none') != -1) {
+                $('.div_' + c).slideDown();
+            }
+            else {
+                $('.div_' + c).hide();
+            }
+        }
+
+        $(document).ready(function () {
+            window.onload = Loading();
+            $('#ddlProgramInterested').change(function () {
+                var Program = $('#ddlProgramInterested').val();
+                DisplayCourses(Program);
+            });
+            $('#ddlCourse').change(function () {
+                var Course = $('#ddlCourse').val();
+                $('#hfCourse').val(Course);
+            });
+
+        });
+
+        function Loading() {
+            var Coursehtml = $('#hfCoursehtml').val();
+            var Course = $('#hfCourse').val();
+            if (Coursehtml != '') {
+                $('#ddlCourse').html(Coursehtml);
+                if (Course != '') {
+                    $('#ddlCourse').val(Course);
+                }
+            }
+        }
+        function DisplayCourses(Program) {
+            $('#ddlCourse').html('<option value="Loading">Loading</option>');
+            $.ajax({
+                type: "POST",
+                dataType: "json",
+                contentType: "application/json; charset=utf-8",
+                url: "/contact/request_form.aspx/DisplayCourses",
+                data: "{Program:'" + Program + "'}",
+                success: function (msg) {
+                    if (msg.d != '0') {
+
+                        $('#hfCoursehtml').val(msg.d);
+                        $('#ddlCourse').html(msg.d);
+                    }
+                    else {
+                        $('#ddlCourse').html('<option value="Error">Error</option>');
+                        alert('Error in Displaying Courses');
+                    }
+                }
+                ,
+                error: function (xhr, ajaxOptions, thrownError) {
+                    // window.location = "Login.aspx";
+                    alert('srfsd');
+                }
+            });
+        }
+
+    </script>
+    <style type="text/css">
+        span[id*="RequiredFieldValidator"] {
+            display: none;
+        }
+
+        .CityName {
+            border-bottom: 1px solid #ececec;
+            cursor: pointer;
+            padding: 3px;
+        }
+
+            .CityName:hover {
+                background-color: gray;
+                color: #fff;
+            }
+
+        .FastTrack_Registration {
+            -webkit-transform: translateY(0);
+            transform: translateY(0);
+            -webkit-transition: all .8s ease 0s;
+            transition: all .8s ease 0s;
+        }
+
+        .FastTrack_Login {
+            -webkit-transform: translateY(-900%);
+            transform: translateY(-900%);
+            -webkit-transition: all .8s ease 0s;
+            transition: all .8s ease 0s;
+        }
+
+        #div_CitySearch {
+            background-color: #e5e5e5;
+            display: none;
+            font-size: 12px;
+            max-height: 109px;
+            min-height: 20px;
+            overflow-y: scroll;
+            padding: 4px;
+            position: absolute;
+            width: 290px;
+        }
+
+        .selectprog {
+            background-color: #e5e5e5;
+            border: 0 none;
+            color: #696969;
+            font-size: 12px;
+            width: 285px;
+        }
+
+        .main_ug, .main_pg, .main_ibm {
+            cursor: pointer
+        }
+
+        .feature-tab h2 {
+            text-transform: uppercase;
+            font-size: 15px !important
+        }
+    </style>
+    <script src="./Overview_files/jquery.min.js.download"></script>
+    <link rel="stylesheet" type="text/css" href="CSS/main.css">
+    <link rel="stylesheet" href="Best Private University in Punjab, North India (India) - Chandigarh University_files/bootstrap.min.css">
+    <link rel="stylesheet" href="Best Private University in Punjab, North India (India) - Chandigarh University_files/fonts.css">
+    <link rel="stylesheet" href="Best Private University in Punjab, North India (India) - Chandigarh University_files/font-awesome.min.css">
+    <link rel="stylesheet" href="Best Private University in Punjab, North India (India) - Chandigarh University_files/owl.carousel.min.css">
+    <link rel="stylesheet" href="Best Private University in Punjab, North India (India) - Chandigarh University_files/animate.css">
+    <link rel="stylesheet" href="Best Private University in Punjab, North India (India) - Chandigarh University_files/style.css">
+    <link rel="stylesheet" href="Best Private University in Punjab, North India (India) - Chandigarh University_files/responsive.css">
+    <!-- Google Tag Manager -->
+    <script>
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-WGZBMSV');</script>
+    <!-- End Google Tag Manager -->
+
+    <title>
+
+    </title>
+    <script src="./Overview_files/f(1).txt"></script>
+    <script src="./Overview_files/f(2).txt"></script>
+    <script src="./Overview_files/f(3).txt"></script>
+    <script src="https://googleads.g.doubleclick.net/pagead/viewthroughconversion/955916751/?random=1580813578763&amp;cv=9&amp;fst=1580813578763&amp;num=1&amp;guid=ON&amp;resp=GooglemKTybQhCsO&amp;u_h=900&amp;u_w=1600&amp;u_ah=860&amp;u_aw=1600&amp;u_cd=24&amp;u_his=1&amp;u_tz=330&amp;u_java=false&amp;u_nplug=3&amp;u_nmime=4&amp;sendb=1&amp;ig=1&amp;frm=0&amp;url=file%3A%2F%2F%2FC%3A%2FUsers%2Fadmin%2FDesktop%2FOverview.html&amp;tiba=Chandigarh%20University%2C%20Punjab%20Admissions%202020%20-%20Engineering%2C%20MBA%2C%20MCA%2C%20Multimedia%2C%20Pharmacy%2C%20Film%20Studies%20and%20Hotel%20Management%20Admissions&amp;hn=www.googleadservices.com&amp;rfmt=3&amp;fmt=4"></script>
+    <script src="https://googleads.g.doubleclick.net/pagead/viewthroughconversion/955916751/?random=1580813578779&amp;cv=9&amp;fst=1580813578763&amp;num=2&amp;guid=ON&amp;resp=GooglemKTybQhCsO&amp;u_h=900&amp;u_w=1600&amp;u_ah=860&amp;u_aw=1600&amp;u_cd=24&amp;u_his=1&amp;u_tz=330&amp;u_java=false&amp;u_nplug=3&amp;u_nmime=4&amp;sendb=1&amp;ig=1&amp;frm=0&amp;url=file%3A%2F%2F%2FC%3A%2FUsers%2Fadmin%2FDesktop%2FOverview.html&amp;tiba=Chandigarh%20University%2C%20Punjab%20Admissions%202020%20-%20Engineering%2C%20MBA%2C%20MCA%2C%20Multimedia%2C%20Pharmacy%2C%20Film%20Studies%20and%20Hotel%20Management%20Admissions&amp;hn=www.googleadservices.com&amp;rfmt=3&amp;fmt=4"></script>
+</head>
+<body class="loaded" style="opacity: 1;">
+    <div id="wrapper">
+        <!--- HEADER --->
+        <link rel="shortcut icon" href="https://www.cuchd.in/assets/upload/fevicon.png" type="image/x-icon">
+        <!-- Google Tag Manager (noscript) -->
+        <noscript>
+            <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WGZBMSV"
+                    height="0" width="0" style="display:none;visibility:hidden"></iframe>
+        </noscript>
+
+        <!-- End Google Tag Manager (noscript) -->
+
+        <div id="notifyvisitorstag"></div>
+        <script>
+            (function (n, o, t, i, f, y) {
+                n[i] = function () { (n[i].q = n[i].q || []).push(arguments) }; n[i].l = new Date;
+                n[t] = {}; n[t].auth = { bid_e: '77A770D3CBF731D81D53D1CAB97FA728', bid: '4744', t: '420' };
+                n[t].async = false;
+                (y = o.createElement('script')).type = 'text/javascript';
+                y.src = "//cdn.notifyvisitors.com/js/notify-visitors-1.0.js";
+                (f = o.getElementsByTagName('script')[0]).parentNode.insertBefore(y, f);
+            })(window, document, 'notify_visitors', 'nv');
+        </script>
+
+
+        <header id="header" class="" style="top: 0px;">
+
+            <style>
+
+                .logo {
+                    position: relative;
+                }
+
+                .logo-fix {
+                    position: absolute;
+                    width: 100%;
+                    color: #fff;
+                    font-size: 12px;
+                    right: -164px;
+                    top: 13px;
+                    font-family: 'Roboto Condensed';
+                    width: 150px;
+                }
+
+                    .logo-fix img {
+                        width: 100%;
+                    }
+
+                header.sticky .logo-fix {
+                    display: none;
+                }
+
+                .logo-infocard {
+                    left: 0
+                }
+
+                .mob-logo {
+                    display: none;
+                }
+
+                @media only screen and (max-width: 567px) {
+                    .logo-fix {
+                        top: 91px;
+                        right: auto;
+                        left: 0px;
+                    }
+                }
+
+                @media only screen and (max-width: 991px) {
+                    .mob-logo {
+                        display: none;
+                    }
+
+                    header.sticky .desktop-logo.lg-logo {
+                        display: none;
+                    }
+
+                    header.sticky .mob-logo {
+                        display: block;
+                    }
+                }
+            </style>
+
+
+
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="logo">
+
+                            <h2><a href="Home.html"><img src="./Images/logo.png" alt="APEX institute logo" class="desktop-logo lg-logo" style="width:40%"> <img src="./Images/logo.png" alt="APEX institute logo" class="mob-logo" style="width:20%"> <img src="./Images/logo.png" alt="APEX institute logo" class="sm-logo" style="width:40%"></a><span class="heading-tag">Apex College, Bareilly</span></h2>
+
+
+                            <div class="logo-infocard hidden-xs">
+                                <div class="custom ">
+                                    <div class="row">
+                                        <div class="col-sm-5 col-xs-5">
+                                            <div class="infocard-wrapper text-center">
+                                                <p><span class="logo-small"><img src="./Images/logo.png" alt="" style="width:60%"></span></p>
+                                                <p>1st institute in North India to hold National Record in Limca Book of Records</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-7 col-xs-7">
+                                            <div class="custom contact-details">
+                                                <p>
+                                                    <strong><strong>T:</strong>+91-7351408009</strong><br>
+                                                    <strong>Email:</strong>&nbsp;<a href="mailto:admissions@cumail.in">admissions@apex.in</a>
+                                                </p>
+                                                <p>
+                                                    <strong>Apex College</strong><br>
+                                                    NH-95 Philibit Road , Bareilly (INDIA)
+                                                </p>
+                                                <a href="#" target="_blank"> <i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;&nbsp;<span>Open in Google Maps</span> </a>
+                                                <div class="gap"></div>
+                                                <ul class="list-inline list-scoial">
+                                                    <li><a href="#" rel="nofollow" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                                    <li><a href="#" rel="nofollow" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                                    <li><a href="#" rel="nofollow" target="_blank"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
+
+                                                    <li><a href="#" rel="nofollow" target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mobile-header hidden-lg hidden-md">
+                            <span><a href="#" style="font-size: 21px;"><i class="fa fa-whatsapp" aria-hidden="true"></i></a></span>
+                            <span><a href="javascript:void(0)" id="search-page-mob"><i class="fa fa-search" aria-hidden="true"></i></a></span>
+                            <div class="menu-toggle"> <span></span> <span></span> <span></span> </div>
+                        </div>
+                    </div>
+                    <div class="col-md-9">
+                        <div class="navbar-right megamenu clearfix">
+                            <!--<div class="short-menu hidden-sm hidden-xs">
+                            <ul class="whatsapp clearfix">
+
+                                <li><a href="http://www.cuchd.in/whatsapp.php" target="_blank"><img src="./Upload/icon1.png" alt="icon"></a></li>
+                                <li><a href="tel:+918033094409"><img src="./Upload/icon2.png" alt="icon"></a></li>
+                                <li><a href="javascript:void(0)"><img src="./Upload/icon3.png" alt="icon"></a></li>
+                                <li><a href="http://www.cuchd.in/maps/"><img src="./Upload/icon4.png" alt="icon"></a></li>
+                            </ul>
+                            <ul class="clearfix">
+                                <li><a href="http://www.cuchd.in/international/index.php">International</a></li>
+                                <li><a href="http://www.cuchd.in/student-services/libraries.php">Library</a></li>
+                                <li><a href="http://www.cuchd.in/student-services/">Student Services</a></li>
+                                <li><a href="http://www.cuchd.in/jobs/">Career</a></li>
+                                <li><a href="https://alumni.cuchd.in/">Alumni</a></li>
+                                <li><a href="http://www.cuchd.in/contact/index.php"> Contact Us</a></li>
+                            </ul>
+                        </div>-->
+                            <ul class="step-one-menu pull-right">
+                                <li class="on-scroll-whatapp">
+                                    <ul class="whatsapp clearfix">
+                                        <li class="hidden"><a href="#" target="_blank"><img src="./Upload/icon1.png" alt="icon"></a></li>
+                                        <li><a href="tel:+918033094409"><img src="./Images/icon2.png" alt="icon"></a></li>
+                                        <li><a href="http://www.cuchd.in/#"><img src="./Images/icon3.png" alt="icon"></a></li>
+                                        <li><a href="http://www.cuchd.in/maps"><img src="./Images/icon4.png" alt="icon"></a></li>
+                                    </ul>
+                                </li>
+                                <li class="dd-menu">
+                                    <a href="javascript:void(0)">About</a>
+                                    <div class="step-two-menu">
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <h3>WHO WE ARE</h3>
+                                                <div class="row">
+                                                    <div class="col-md-6">
+                                                        <ul>
+                                                            <li><a href="aboutus.html">Overview</a></li>
+                                                            <li><a href="Vision_Mission.html">Vision/Mission</a></li>
+                                                            <li><a href="Leadership.html">LeaderShip</a></li>
+                                                            <li><a href="Core_Values.html">Core-Values</a></li>
+                                                            <li><a href="Recognisation_Approval.html">Recognition &amp; Approvals</a></li>
+                                                        </ul>
+                                                    </div>
+                                                    <!--<div class="col-md-6">
+                                                  <ul>
+                                                    <li><a href="http://www.cuchd.in/core-values/">About Apex College</a></li>
+                                                    <li><a href="http://www.cuchd.in/recognitions-and-approvals/"> Chairman Message</a></li>
+                                                    <li><a href="http://www.cuchd.in/about/Awards-and-Rankings.php">Director Message</a></li>
+                                                    <li><a href="http://www.cuchd.in/about/institution-social-responsibility.php">Vision/Mission</a></li>
+                                                    <li><a href="http://www.cuchd.in/admissions/APEX-edge.php">Affiliation</a></li>
+                                                  </ul>
+                                                </div>-->
+                                                </div>
+                                            </div>
+                                            <!--<div class="col-md-6">
+                                          <h3>RELATED LINKS</h3>
+                                          <div class="row">
+                                            <div class="col-md-6">
+                                              <ul>
+                                                <li><a href="http://www.cuchd.in/academics/institutes.php">Institutes &amp; Departments</a></li>
+                                                <li><a href="http://www.cuchd.in/admissions/">Admissions</a></li>
+                                                <li><a href="http://www.cuchd.in/scholarship/">Scholarships</a></li>
+                                                <li><a href="http://www.cuchd.in/admissions/APEX-advantages.php">APEX Advantages</a></li>
+                                                 <li><a href="http://www.cuidol.in/index.aspx?type=cuchd" target="_blank">Distance Education Admissions</a></li>
+                                              </ul>
+                                            </div>
+                                            <div class="col-md-6">
+                                              <ul>
+                                                <li><a href="http://www.cuchd.in/student-services/hostel-facility.php">Hostel Facility</a></li>
+                                                <li><a href="http://www.cuchd.in/student-services/">Student Services</a></li>
+                                                <li><a href="http://www.cuchd.in/contact/how-to-reach-us.php">How to Reach Us?</a></li>
+                                              </ul>
+                                            </div>
+                                          </div>
+                                        </div>-->
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="dd-menu">
+                                    <a href="javascript:void(0)">programs</a>
+                                    <div class="step-two-menu">
+                                        <div class="row">
+                                            <div class="col-md-6">
+
+                                                <div class="row">
+                                                    <div class="col-md-6">
+                                                        <ul>
+                                                            <li><a href="Engineering.html">Engineering</a></li>
+                                                            <li><a href="Management_bba_mba.html">Management (BBA/MBA)</a></li>
+                                                            <li><a href="Computer_Applications.html">Computer Applications</a></li>
+                                                            <li><a href="Commerce.html">Commerce</a></li>
+                                                            <li><a href="Education.html">Education</a></li>
+                                                            <li><a href="College _of_Pharmacy.html">Pharma Science</a></li>
+                                                            <li><a href="Polytechnic.html">polytechnic</a></li>
+
+
+                                                        </ul>
+                                                    </div>
+                                                    <!--<div class="col-md-6">
+                                                  <ul>
+                                                  <li><a href="http://www.cuchd.in/hotel-management-and-tourism/bsc-travel-and-tourism-management.php">Travel and Tourism</a></li>
+                                                  <li><a href="http://www.cuchd.in/management/MBA-tourism-and-hospitality-management.php">MBA Tourism &amp; Hospitality</a></li>
+                                                  <li><a href="http://www.cuchd.in/hotel-management-and-tourism/bsc-culinary-arts.php">Culinary Sciences</a></li>
+                                                   <li><a href="http://www.cuchd.in/pharma-sciences">Pharma Sciences</a></li>
+                                                    <li><a href="http://www.cuchd.in/biotechnology">Biotechnology</a></li>
+                                                    <li><a href="http://www.cuchd.in/basic-sciences/bsc-nutrition-dietetics.php">Nutrition &amp; Dietetics</a></li>
+                                                    <li><a href="http://www.cuchd.in/pharma-sciences/bachelor-of-physiotherapy.php">Physiotherapy</a></li>
+                                                    <li><a href="http://www.cuchd.in/pharma-sciences/bachelor-of-optometry.php">Optometry</a></li>
+                                                    <li><a href="http://www.cuchd.in/pharma-sciences/bsc-in-mlt.php">Medical Lab Technology</a></li>
+                                                    <li><a href="http://www.cuchd.in/pharma-sciences/msc-in-forensic-and-toxicology.php">Forensic Sciences</a></li>
+                                                    <li><a href="http://www.cuchd.in/biotechnology/msc-industrial-microbiology.php">Industrial Microbiology</a></li>
+                                                    <li><a href="http://www.cuchd.in/engineering/bachelor-of-design.php">Industrial Design</a></li>
+                                                    <li><a href="http://www.cuchd.in/animation-and-multimedia/bsc-interior-design.php">Interior Design</a></li>
+                                                    <li><a href="http://www.cuchd.in/TCS/">Specialized CSE in Partnership with TCS</a></li>
+
+                                                  </ul>
+                                                </div>-->
+                                                </div>
+                                            </div>
+                                            <!--<div class="col-md-6">
+
+                                          <div class="row">
+                                            <div class="col-md-6">
+                                              <ul>
+                                               <li><a href="http://www.cuchd.in/animation-and-multimedia/fine-arts.php">Fine Arts</a></li>
+                                                <li><a href="http://www.cuchd.in/architecture-and-design">Architecture</a></li>
+                                                <li><a href="http://www.cuchd.in/commerce">Commerce</a></li>
+                                                <li><a href="http://www.cuchd.in/commerce">Economics</a></li>
+                                                <li><a href="http://www.cuchd.in/legal-studies">Legal Studies</a></li>
+                                                <li><a href="http://www.cuchd.in/agricultural-science">Agricultural Science</a></li>
+                                                <li><a href="http://www.cuchd.in/journalism-and-mass-communication">Media Studies</a></li>
+                                                <li><a href="http://www.cuchd.in/animation-and-multimedia/fashion-designing.php">Fashion &amp; Design</a></li>
+                                                <li><a href="http://www.cuchd.in/liberal-arts-and-humanities/ma-psychology.php">Psychology</a></li>
+                                                <li><a href="http://www.cuchd.in/liberal-arts-and-humanities/ma-clinical-psychology.php">Clinical Psychology</a></li>
+                                                <li><a href="http://www.cuchd.in/liberal-studies/">Liberal Studies</a></li>
+                                                <li><a href="http://www.cuchd.in/liberal-arts-and-humanities">Arts &amp; Humanities</a></li>
+                                                <li><a href="http://www.cuchd.in/IBM">IBM Specialized Programs</a></li>
+
+
+                                              </ul>
+                                            </div>
+                                            <div class="col-md-6">
+                                              <ul>
+                                                 <li><a href="http://www.cuchd.in/IBM">IBM (MBA Business Analytics)</a></li>
+                                                <li><a href="http://www.cuchd.in/ICICI">ICICI (MBA Banking &amp; Financial Engineering)</a></li>
+                                                <li><a href="http://www.cuchd.in/SHRM/">MBA - Strategic HR</a></li>
+                                                 <li><a href="http://www.cuchd.in/basic-sciences">Basic Sciences</a></li>
+                                                 <li><a href="http://www.cuchd.in/basic-sciences">Chemistry</a></li>
+                                                 <li><a href="http://www.cuchd.in/basic-sciences">Physics</a></li>
+                                                 <li><a href="http://www.cuchd.in/basic-sciences/MSC-applied-mathematics.php">Mathematics</a></li>
+                                                 <li><a href="http://www.cuchd.in/basic-sciences/bsc-actuarial-sciences.php">Actuarial Sciences</a></li>
+                                                 <li><a href="http://www.cuchd.in/basic-sciences/msc-applied-cognitive-sciences.php">Applied Cognitive Science</a></li>
+                                                 <li><a href="http://www.cuchd.in/teachers-training-and-research">Education</a></li>
+                                                 <li><a href="http://www.cuchd.in/teachers-training-and-research/post-graduate-diploma-in-yoga-education.php">Yoga Education</a></li>
+
+
+                                              </ul>
+                                            </div>
+                                          </div>
+                                        </div>-->
+                                        </div>
+                                        <br>
+                                        <!--<div class="row">
+                                      <div class="col-md-6">
+                                        <h3>DOCTORATE PROGRAMS</h3>
+                                        <div class="row">
+                                          <div class="col-md-6">
+                                            <ul>
+                                              <li><a href="http://www.cuchd.in/doctorate-programs">Doctor of Philosophy</a></li>
+                                            </ul>
+                                          </div>
+                                          <div class="col-md-6">
+                                            <ul>
+                                              <li><a href="http://www.cuchd.in/phd-me-admissions/ApplicationRegistration.aspx?Subject=fJAt3RX8ggEX//eDGysKyA==">Ph.D Admissions</a></li>
+                                            </ul>
+                                          </div>
+                                        </div>
+                                      </div>
+                                      <div class="col-md-6">
+                                        <h3>Global Fellowship Program</h3>
+                                        <div class="row">
+                                          <div class="col-md-12">
+                                            <ul>
+                                              <li><a href="http://gfp.cuchd.in/" target="_blank">MA Liberal Arts &amp; Humanities</a></li>
+                                            </ul>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>-->
+                                    </div>
+                                </li>
+                                <li class="dd-menu">
+                                    <a href="javascript:void(0)">academics</a>
+                                    <div class="step-two-menu">
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <!--										<h3>RESEARCH INTENSIVE institute</h3>-->
+                                                <div class="row">
+                                                    <div class="col-md-12">
+                                                        <ul>
+                                                            <li><a href="Academics_Overview.html">Academics Overview</a></li>
+                                                            <li><a href="Institute.html">Institutes</a></li>
+                                                            <li><a href="Teaching_Practice.html">Teaching Practices</a></li>
+                                                            <li><a href="Apex_Advantages.html">Apex Advantages</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <!--										<h3>ENTREPRENEURSHIP CELLS</h3>-->
+                                                <!--<div class="row">
+                                              <div class="col-md-12">
+                                                <ul>
+                                                  <li><a href="http://www.cuchd.in/academics/list-of-holidays.php">List of Holidays</a></li>
+                                                  <li><a href="http://www.cuchd.in/academics/teaching-practices.php">Teaching Practices</a></li>
+                                                  <li><a href="http://www.cuchd.in/academics/system-of-evaluation.php">System of Evaluation</a></li>
+                                                  <li><a href="http://www.cuchd.in/admissions/APEX-advantages.php">APEX Advantages</a></li>
+                                                </ul>
+                                              </div>
+                                            </div>-->
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="dd-menu">
+                                    <a href="javascript:void(0)">admissions</a>
+                                    <div class="step-two-menu">
+                                        <div class="row">
+                                            <div class="col-md-4">
+                                                <h3>Job Oriented Programs</h3>
+                                                <div class="row">
+                                                    <div class="col-md-12">
+                                                        <ul>
+                                                            <li><a href="After_Tenth.html">After 10th</a></li>
+                                                            <li><a href="After_12th.html">After 12th</a></li>
+                                                            <li><a href="After_Graduation.html">After Graduation</a></li>
+                                                            <li><a href="Leet_Programs.html">Leet Programs</a></li>
+
+
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-8">
+                                                <h3>Admission</h3>
+                                                <div class="row">
+                                                    <div class="col-md-6">
+                                                        <ul>
+                                                            <li><a href="Admissions.html">Overview</a></li>
+
+                                                            <li><a href="How_to_Apply.html">How to Apply?</a></li>
+                                                            <li><a href="Admission_Criteria.html">Admission Criteria</a></li>
+                                                            <li><a href="Apex_Scholarships.html">APEX Scholarship</a></li>
+                                                            <li><a href="#">National Admission</a></li>
+                                                            <!--<li><a href="http://www.cpcgharuan.com/" target="_blank">Diploma Programs</a></li>-->
+                                                        </ul>
+                                                    </div>
+                                                    <!--<div class="col-md-6">
+                                                    <ul>
+                                                        <li><a href="http://APEX.cuchd.in/index.aspx?type=cuchd" target="_blank">National Admissions</a></li>
+                                                        <li><a href="http://www.cuchd.in/international/registration">International Admissions</a></li>
+                                                        <li><a href="http://www.cuidol.in/index.aspx?type=cuchd" target="_blank">Distance Education Admissions</a></li>
+                                                        <li><a href="http://www.cuchd.in/contact/">Admission Offices</a></li>
+                                                        <li><a href="http://www.cuchd.in/contact/">Visit the Campus</a></li>
+                                                        <li><a href="http://www.cuchd.in/migration/">Migration Policy</a></li>
+                                                    </ul>
+                                                </div>-->
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </li>
+                                <!--<li class="dd-menu">
+                                <a href="javascript:void(0)">campus life</a>
+                                <div class="step-two-menu">
+                                    <div class="row">
+                                        <div class="col-md-6">
+
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <ul>
+                                                        <li><a href="http://www.cuchd.in/campus-life/convocation.php">Convocations</a></li>
+                                                        <li><a href="http://www.cuchd.in/campus-life/live-concerts.php">Live-in-Concerts</a></li>
+                                                        <li><a href="http://www.cuchd.in/campus-life/tech-invent.php">Tech Invent &amp; Events</a></li>
+                                                        <li><a href="http://www.cuchd.in/campus-life/cultural.php">Cultural &amp; Cosmopolitan</a></li>
+                                                        <li><a href="http://www.cuchd.in/campus-life/evoke.php">Evoke &amp; Youth Summits</a></li>
+                                                        <li><a href="http://www.cuchd.in/student-services/sports.php">Sports &amp; Adventure</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <ul>
+                                                        <li><a href="http://www.cuchd.in/campus-life/bollywood-celebrities.php">Bollywood Celebrities</a></li>
+                                                        <li><a href="http://www.cuchd.in/campus-life/visitors.php">Prominent Visitors</a></li>
+                                                        <li><a href="http://www.cuchd.in/campus-life/international-folklore-festival.php">APEX-RHYTHMS International Folklore Festival</a></li>
+                                                        <li><a href="http://www.cuchd.in/campus-life/national-international-conferences.php">National &amp; International Conferences</a></li>
+
+                                                        <li><a href="http://www.cuchd.in/campus-life/international-faculties.php">International Faculty Development Program (IFDP)</a></li>
+
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>-->
+
+
+
+                                <li class="dd-menu">
+                                    <a href="javascript:void(0)">placements</a>
+                                    <div class="step-two-menu">
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="row">
+                                                    <div class="col-md-12">
+                                                        <ul>
+                                                            <li><a href="#">About Placements</a></li>
+                                                            <li><a href="#">Placement Tracker</a></li>
+                                                            <li><a href="#">Placements Overview</a></li>
+                                                            <li><a href="#">Training Á Placement Cell</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!--<div class="col-md-6">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <ul>
+                                                    <li><a href="http://www.cuchd.in/placements/joint-placement-programme.php">Joint Placement Programme</a></li>
+                                                    <li><a href="http://www.cuchd.in/placements/placement_engineering.php">Best Engineering Placement</a></li>
+                                                    <li><a href="http://www.cuchd.in/placements/placement_management.php">Best Management Placement</a></li>
+                                                    <li><a href="http://www.cuchd.in/placements/placement_hotel_management.php">Best Hotel Management Placement</a></li>
+
+                                                </ul>
+                                            </div>
+                                        </div>-->
+                                        </div>
+                                    </div>
+
+                                </li>
+
+                                <li><a href="gallery.html">Gallery</a></li>
+                                <li><a href="Contactus.html">Contact Us</a></li>
+
+
+
+
+
+
+
+
+
+                                <!--<li><a href="contact/index.php">Contact us</a></li>-->
+                                <li><a href="JavaScript:Void(0)" id="search-page"><i class="fa fa-search" aria-hidden="true"></i></a></li>
+                                <li class="selected dd-menu hidden-md hidden-lg">
+                                    <a>Students</a>
+                                    <div class="step-two-menu stu-dd">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <ul>
+                                                    <li><a href="http://www.cuchd.in/international/">International</a></li>
+                                                    <li><a href="http://www.cuchd.in/student-services/libraries.php">Library</a></li>
+                                                    <li><a href="http://www.cuchd.in/student-services/">Student Services</a></li>
+                                                    <li><a href="http://www.cuchd.in/jobs/">Career</a></li>
+                                                    <li><a href="https://alumni.cuchd.in/">Alumni</a></li>
+                                                    <li><a href="http://www.cuchd.in/contact/index.php">Contact Us</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+
+
+
+        <div class="searchbar">
+            <form action="https://www.cuchd.in/searchresult.php" method="get">
+                <input type="text" placeholder="search here" value="" name="q">
+                <input type="submit" value="" class="se-btn">
+            </form>
+            <span class="close-btn">x</span>
+        </div>
+
+        <div class="body-color-overlay"></div>
+
+
+
+        <!--- HEADER --->
+        <!--- BODY --->
+        <div id="body">
+            <form method="post" action="https://www.cuchd.in/admissions/" onsubmit="javascript:return WebForm_OnSubmit();" id="form1" class="form">
+                <div class="aspNetHidden">
+                    <input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="">
+                    <input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="">
+                    <input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="F6MnrFTDaEB7xATukVthK6M6+Jw7L8OmbrSXXgv9PTBgS3fPyjQhnFXsRAg36AfIxXQcWk/5+OkVxf6WSPo2e1gnJovrlMTypbJ0jnnVFrVJB3qGydSLVwjRFw7h7LNHqlOBbo/QWEzoXfXUeoeC4IAKSSa/gxCiYhdWBx4iZS17UdkHbhjgXa/yRh8OfthQsmjCYupbaE7VDEezUreH1/NgN3f/zz8aYb2PYZEQt96dXmIwt7dRUIaNKDKBfNUXYL+mWrTEF0RwSPAQEeW4pRd5nA5Fh7KgIZR8STIhG+szsBL8d3hhO7dtgk1o/4ceKDbhpaUuDli60W0RLNaE8uivUpqFwnn1ZmEw2cVqCTRjauCp+IJA1+uK0yxKSpy+oeUtOCowJr/W8Qns5N+RfxbNbb638++Qk/JlSO6ZTWUN+IaZXcgEZAjFvRo2bEnShk9YZ2b1xqYf+hSncM8ersblMrjtfwbQYlWo/+Q1btdSoU3ZrjQhuOSBfGG/Wi6jNgMBnCyXOdPA6yamWWb5QEBVhadPGeGiKGLnpfookCCle0sL0/Gfo+wJe7l2ffcxCJJtkww77BKcFTQdA8rjUlpSyPydunECX3D3rfQ+lT45xSbvS7ASPRPAi1xB9RzcpaAStbqhMFnQUzJPs+JrayA60QaM+Qc5PUw08yHiNK6tDqnNF1LXgJg9S4nwtDdJVUi3MekbSUnHWTj3bpGfL1o0F7Pp/zlg1e2n9K/g71+WJB1BMjypPYrt9/TkVwy+LMkt6FjHWZZrlIPS+md8aXhwFOevCwA5w18GrjNsxCMOE5qPWuYLGKvX+ZkPTJb2jqGDkaJ/POPIAQX/xGCq/gJp8oRVKi/o/mE9hsFpeXLjdrGMJqp7QmgT5CA9PoRmfw0iRSrpKXnSQIE0cqqjUvGCL4re+LfKfgAG9v30GKkhnJS8W4vEUtYu+g3n0F1Qmto0ifFlfjo7dTdiFGG2oEmOMFzo1lRXdB1ZR5JEv35PGlA2nldWDWj6DbbjwDrRzs7eRh5dfP89608KdFMJ2Lc2mKCKK6rHU5VV/uIgjuI+zkc02EcIPU0EKDlWCvOpCuvxvDJzlHzFsyCZk2F0JY8rAmqFwq48kKFYWmJdzApxVF0Cmki7uehjdLeVjPTDdUAuj48K2KN8G/Acjd0GR0HrKDjOyiMR+ucB85GSWVE8AcaK/ynXhnbrjxqyrZZ81Q/Evezn+XyumWw9SCRcqsQq0HGFDgEusuNwGbWGnMxvaQWezONgXHKGLLTtOX48ClbDQd5k8MhXXjuKRGrn6c9HKgbczFPmRGIVZT5pSro4qmbcxJJUwv9ys8cMtWLNStIJ3wOtSGgzv8Hb4wiyNbXFH7liBgcnja7SMbV9AlFEeHjAJqO/OY1RGgOAmx4IgJ11NAs9wc6ksV76P86t04Ol+R4neEwJkUTby9QHc/2Df7kwNubw212CJJv++euPtHdnpf5lWAEfuWKhFtyMJXH3bEGPBdRvooQKSBCZkq3m/qbPoFIzanS0VxpsDa5dVLJP9mgeeY4Dy9/2ktXvd+AcQCxeke2ODo2poTiMqjcAb5w6bMre7Yo7NfziC3Wx5Ktfxu9x71W6QpyqQHrFlKaRSv9Dkmm6lIlH1gcriFBRh1xP6spvDkS2v8Q6c6ArrxwgFsrxzZj8LRlh/0usoeh+ORhG1DVGXvAWDtNESqF5zOBhxoGp/9VCZzt9UllwS709oRKxEb+ol97K89YncRXgxVZtF0bO6I09LC5zHdLpjN9I8AY69nZxA4CuKPT2SgAnO681K4YmODSQKE+Oys2gNwsDwhjMnDAYzfRAC841XSGbyoWTbf/v4UTSn1TZZXtdM82d8ckczZZf+Mh+PisXTmulNJcpW74HPyqRtB0WI42tEfKi8LVdkLbBYhQs3rH8zssyWJzvKtg1sfSPCSZwGpn911axYcFXfCztMoGT3agk5Os9RTJorqwQQjnOKeTWNVyMvTPqldMKhoNJHKiWNZ65vscVRCtgDP//3VUy7w9pjuX6Hx3QAfkPTnb5Mrfn6OR/6HEuG2T3zetxAshfs5v3Erwimr5bNuyVFlUxB2ol6Jgmtj220hcSCvY7gyJcg/MxzsYmsPtBlQKD0f8+DhHWmsopbv3dva092gFEjppnEJjEqNnNAqWAMYtdGtjzdPj8qet5Yr2tCOCKXI15zC6TOLsYzuZCPq431XyZt5m3cP2Jbux+8PL40RUnA76i6u8MRiXy2sdWf3WW40FliwF4iwQAWdo15ZVq/VlIbSXxDy7eTY1uWrn+sWUkCZF5eEe5cWnY9BD+6a1tCwEsS/erPe6N3RsM8pxE6A9Jt20nVTePCCwUoTOmw7743/v3Bqa27t+NyPZjmhEkRjiLEfwADv+8zQwQKhhzllWs5zUqmeSqWBwR8TzGkOcdkjOGGrB1v0zUTNg3lkBbBX81yyZTb5ayNuwXSui7k8Uuk0XKU2BuCLI4qk683mxreVjeuCewwiBrEf7K6ScdrMzd36zn/2fnOp6eKTErwcDFs6Ca2/B2IhpbrsNQVMpQ8XQmxD6uD2QoqkXx+Shf7H0gTty9QMSL+12MSp62Qj6cyrmVXwnZZQwErCuJLv22HF89C/Bbs2VhvSi7uYZiIDP31jh+15rL31YGzxqJrPImsSit/JTbYS7Okxj/3GmFcUC9md8hpS2UlZxby3b61ZbK3SYXVuKD1Y0m8zKtgK58DkZQG+5z0A31gz2xHAkUq1lAdCd+3HyUpDHOPRaTWMmZmYMt/mWOQRWVp5hn7x1a4+tnp/yuGMcEvBxcdl5ldkBKqjfFgCxrELN1EfP6uG0Z1DOzKDwyldLFjN9Kx4nlTvm1Vrf0C+VRbLVi55U4uUaTdniAXWF8Tvofx13IY3Er6fLS5vXQpVu9lvLwUDucl70lU8MJOub0hWLDfkUJ+SnmJvZLF0Pw7EaOdZkfew==">
+                </div>
+
+                <script type="text/javascript">
+                    //<![CDATA[
+                    var theForm = document.forms['form1'];
+                    if (!theForm) {
+                        theForm = document.form1;
+                    }
+                    function __doPostBack(eventTarget, eventArgument) {
+                        if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+                            theForm.__EVENTTARGET.value = eventTarget;
+                            theForm.__EVENTARGUMENT.value = eventArgument;
+                            theForm.submit();
+                        }
+                    }
+                    //]]>
+                </script>
+
+
+                <script src="./Overview_files/WebResource.axd" type="text/javascript"></script>
+
+
+                <script src="./Overview_files/ScriptResource.axd" type="text/javascript"></script>
+                <script src="./Overview_files/ScriptResource(1).axd" type="text/javascript"></script>
+                <script type="text/javascript">
+                    //<![CDATA[
+                    if (typeof (Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side framework failed to load.');
+                    //]]>
+                </script>
+
+                <script src="./Overview_files/ScriptResource(2).axd" type="text/javascript"></script>
+                <script src="./Overview_files/ScriptResource(3).axd" type="text/javascript"></script>
+                <script src="./Overview_files/ScriptResource(4).axd" type="text/javascript"></script>
+                <script src="./Overview_files/ScriptResource(5).axd" type="text/javascript"></script>
+                <script type="text/javascript">
+                    //<![CDATA[
+                    function WebForm_OnSubmit() {
+                        if (typeof (ValidatorOnSubmit) == "function" && ValidatorOnSubmit() == false) return false;
+                        return true;
+                    }
+                    //]]>
+                </script>
+
+                <div class="aspNetHidden">
+
+                    <input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="83A730BA">
+                </div>
+                <script type="text/javascript">
+                    //<![CDATA[
+                    Sys.WebForms.PageRequestManager._initialize('ScriptManager1', 'form1', [], [], [], 90, '');
+                    //]]>
+                </script>
+
+                <section class="image-container">
+                    <div style="background:url(Images/6.JPG) no-repeat; background-size: cover; height:740px"></div>
+                </section>
+                <section class="inn-body-wrap">
+                    <div class="hero-inner" style="margin-top:-35px">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-8 col-md-7 col-sm-12 col-xs-12">
+                                    <div class="bordered-headline course-heading">
+                                        <div class="row" style="background-color: #161617c4;padding-top:4px">
+                                            <div class="col-lg-12">
+                                                <div class="hero-heading">
+                                                    <h1 class="page-title-homepage ad-title">
+                                                        <span style="font-size:12px; display:block; text-transform:uppercase">See for yourself as a Student for a Day. Register Now</span>
+                                                        Take the first step towards transforming your life
+                                                    </h1>
+                                                </div>
+                                                <span class="bottom-a"> <a href="#" class="button btn btn-success">Apply Now</a> <a href="#" class="button red btn btn-danger">FAQ's</a> </span>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+
+
+                                </div>
+                                <div class="col-lg-4 col-md-5 col-sm-12 col-xs-12">
+                                    <div class="admission-quick-enquiry">
+                                        <h2>Need More Information?</h2>
+                                        <div class="admission-enquiry-wrap">
+                                            <div class="content-area">
+                                                <p>
+                                                    Submit the Registration form to get more information about the program of your interest at Apex Institute or call us at<br />
+                                                    <a href="tel:91-7351408009">91-7351408009</a>. Our advisors are here to help.
+                                                </p>
+                                            </div>
+                                            <input type="hidden" name="hfAdmissionCheck" id="hfAdmissionCheck">
+                                            <input type="hidden" name="HiddenField1" id="HiddenField1">
+                                            <div class="content-header-text">
+                                                <input type="hidden" name="hfSource" id="hfSource">
+                                                <div class="row">
+                                                    <div class="col-lg-12 col-md-12 col-sm-12">
+                                                        <div class="admission_info_textbox">
+                                                            <input name="txtName" type="text" maxlength="95" id="txtName" placeholder="Name" class="form-control">
+                                                            <span id="RequiredFieldValidatorName" class="valid" style="visibility:hidden;">*</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-lg-12 col-md-12 col-sm-12">
+                                                        <div class="admission_info_textbox">
+                                                            <input name="txtEmail" type="text" id="txtEmail" placeholder="Email" class="form-control">
+                                                            <span id="RequiredFieldValidatorEmail" style="visibility:hidden;">*</span>
+                                                            <span id="RequiredFieldValidator1Email" style="visibility:hidden;">*</span>
+                                                            <span id="spanEmailStatus" title="Email" class="valid" style="display: none"><img src="./Overview_files/green-tick.png"></span>
+                                                            <input type="hidden" name="hfEmailIdStatusMessage" id="hfEmailIdStatusMessage">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-lg-12 col-md-12 col-sm-12">
+                                                        <div class="admission_info_textbox">
+                                                            <input name="txtMobile" type="text" maxlength="20" id="txtMobile" placeholder="Phone" class="form-control">
+
+                                                            <span id="RequiredFieldValidator3" style="visibility:hidden;">*</span>
+                                                            <span id="RequiredFieldValidatorMobile" style="visibility:hidden;">*</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-lg-12 col-md-12 col-sm-12">
+                                                        <div class="admission_info_textbox">
+                                                            <input type="hidden" name="hfCity" id="hfCity">
+                                                            <input name="txtCity" type="text" id="txtCity" placeholder="City" autocomplete="off" class="form-control">
+                                                            <p class="pCity">
+                                                            </p><div id="div_CitySearch" style="display: none;"> </div>
+                                                            <p></p>
+                                                            <span id="rfvCity" class="valid" style="display:none;">*</span>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-lg-12 col-md-12 col-sm-12">
+                                                        <div class="admission_info_textbox">
+                                                            <select name="ddlProgramInterested" id="ddlProgramInterested" class="form-control">
+                                                                <option value="-1">SELECT DISCIPLINE</option>
+                                                                <option value="Agricultural Science">Agricultural Science</option>
+                                                                <option value="Animation &amp; Film Production &amp; Visual Arts">Animation &amp; Film Production &amp; Visual Arts</option>
+                                                                <option value="Applied Health Sciences">Applied Health Sciences</option>
+                                                                <option value="Architecture Design and Planning">Architecture Design and Planning</option>
+                                                                <option value="Arts">Arts</option>
+                                                                <option value="Biotechnology">Biotechnology</option>
+                                                                <option value="Business Management">Business Management</option>
+                                                                <option value="Commerce">Commerce</option>
+                                                                <option value="Computing">Computing</option>
+                                                                <option value="Design">Design</option>
+                                                                <option value="Diploma">Diploma</option>
+                                                                <option value="Education">Education</option>
+                                                                <option value="Engineering">Engineering</option>
+                                                                <option value="Hotel Management">Hotel Management</option>
+                                                                <option value="Journalism and Mass Communication">Journalism and Mass Communication</option>
+                                                                <option value="Legal Studies">Legal Studies</option>
+                                                                <option value="Pharma Sciences">Pharma Sciences</option>
+                                                                <option value="Sciences">Sciences</option>
+
+                                                            </select>
+                                                            <span id="RequiredFieldValidator1" style="visibility: visible;">*</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-lg-12 col-md-12 col-sm-12">
+                                                        <div class="admission_info_textbox">
+                                                            <select name="ddlProgram" id="ddlProgram" class="form-control"><option value="0">Loading Programs</option></select>
+                                                            <span id="RequiredFieldValidator2" style="visibility: visible;">*</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="admission_info_textbox">
+                                                    <div class="row">
+                                                        <div class="col-lg-4 col-md-4 col-sm-12">
+                                                            <select name="ddlDate" id="ddlDate" class="form-control mb-control">
+                                                                <option value="0">DATE</option>
+                                                                <option value="01">1</option>
+                                                                <option value="02">2</option>
+                                                                <option value="03">3</option>
+                                                                <option value="04">4</option>
+                                                                <option value="05">5</option>
+                                                                <option value="06">6</option>
+                                                                <option value="07">7</option>
+                                                                <option value="08">8</option>
+                                                                <option value="09">9</option>
+                                                                <option value="10">10</option>
+                                                                <option value="11">11</option>
+                                                                <option value="12">12</option>
+                                                                <option value="13">13</option>
+                                                                <option value="14">14</option>
+                                                                <option value="15">15</option>
+                                                                <option value="16">16</option>
+                                                                <option value="17">17</option>
+                                                                <option value="18">18</option>
+                                                                <option value="19">19</option>
+                                                                <option value="20">20</option>
+                                                                <option value="21">21</option>
+                                                                <option value="22">22</option>
+                                                                <option value="23">23</option>
+                                                                <option value="24">24</option>
+                                                                <option value="25">25</option>
+                                                                <option value="26">26</option>
+                                                                <option value="27">27</option>
+                                                                <option value="28">28</option>
+                                                                <option value="29">29</option>
+                                                                <option value="30">30</option>
+                                                                <option value="31">31</option>
+
+                                                            </select>
+                                                            <span id="RequiredFieldValidatorddlDate" style="visibility: visible;">*</span>
+                                                        </div>
+                                                        <div class="col-lg-4 col-md-4 col-sm-12">
+                                                            <select name="ddlMnt" id="ddlMnt" class="form-control mb-control">
+                                                                <option value="0">MONTH</option>
+                                                                <option value="01">January</option>
+                                                                <option value="02">February</option>
+                                                                <option value="03">March</option>
+                                                                <option value="04">April</option>
+                                                                <option value="05">May</option>
+                                                                <option value="06">June</option>
+                                                                <option value="07">July</option>
+                                                                <option value="08">August</option>
+                                                                <option value="09">September</option>
+                                                                <option value="10">October</option>
+                                                                <option value="11">November</option>
+                                                                <option value="12">December</option>
+
+                                                            </select>
+                                                            <span id="RequiredFieldValidatorddlMnt" style="visibility: visible;">*</span>
+                                                        </div>
+                                                        <div class="col-lg-4 col-md-4 col-sm-12">
+                                                            <select name="ddlyear" id="ddlyear" class="form-control mb-control">
+                                                                <option value="0">YEAR</option>
+                                                                <option value="1950">1950</option>
+                                                                <option value="1951">1951</option>
+                                                                <option value="1952">1952</option>
+                                                                <option value="1953">1953</option>
+                                                                <option value="1954">1954</option>
+                                                                <option value="1955">1955</option>
+                                                                <option value="1956">1956</option>
+                                                                <option value="1957">1957</option>
+                                                                <option value="1958">1958</option>
+                                                                <option value="1959">1959</option>
+                                                                <option value="1960">1960</option>
+                                                                <option value="1961">1961</option>
+                                                                <option value="1962">1962</option>
+                                                                <option value="1963">1963</option>
+                                                                <option value="1964">1964</option>
+                                                                <option value="1965">1965</option>
+                                                                <option value="1966">1966</option>
+                                                                <option value="1967">1967</option>
+                                                                <option value="1968">1968</option>
+                                                                <option value="1969">1969</option>
+                                                                <option value="1970">1970</option>
+                                                                <option value="1971">1971</option>
+                                                                <option value="1972">1972</option>
+                                                                <option value="1973">1973</option>
+                                                                <option value="1974">1974</option>
+                                                                <option value="1975">1975</option>
+                                                                <option value="1976">1976</option>
+                                                                <option value="1977">1977</option>
+                                                                <option value="1978">1978</option>
+                                                                <option value="1979">1979</option>
+                                                                <option value="1980">1980</option>
+                                                                <option value="1981">1981</option>
+                                                                <option value="1982">1982</option>
+                                                                <option value="1983">1983</option>
+                                                                <option value="1984">1984</option>
+                                                                <option value="1985">1985</option>
+                                                                <option value="1986">1986</option>
+                                                                <option value="1987">1987</option>
+                                                                <option value="1988">1988</option>
+                                                                <option value="1989">1989</option>
+                                                                <option value="1990">1990</option>
+                                                                <option value="1991">1991</option>
+                                                                <option value="1992">1992</option>
+                                                                <option value="1993">1993</option>
+                                                                <option value="1994">1994</option>
+                                                                <option value="1995">1995</option>
+                                                                <option value="1996">1996</option>
+                                                                <option value="1997">1997</option>
+                                                                <option value="1998">1998</option>
+                                                                <option value="1999">1999</option>
+
+                                                            </select>
+                                                            <span id="RequiredFieldValidatorddlyear" style="visibility: visible;">*</span>
+                                                        </div>
+                                                    </div>
+                                                    <span id="spanDate"></span>
+                                                </div>
+                                                <p id="lblState" style="font-size: 14px; display: none"> </p>
+
+                                                <p>
+                                                    <input type="button" name="btnEnquery" value="ENQUIRE" class="button-submit" />
+                                                </p><div id="ValidationSummary2" style="display:none;">
+
+                                                </div>
+                                                <input name="ALREADY REGISTERED" id="btnAlreadyRegistered" type="button" class="gobutton2" title="ALREADY REGISTERED" value="ALREADY REGISTERED" style="display:none">
+                                                <p></p>
+                                            </div>
+                                            <!-- <p style="margin:70px; display:block">&nbsp;</p>-->
+                                            <div class="FastTrack_Login" style="display:none">
+                                                <span>
+                                                    <p>
+                                                        <input name="txtUserId" type="text" id="txtUserId" placeholder="EMAIL ID OR FAST TRACK ID">
+                                                    </p>
+                                                </span>
+                                                <span>
+                                                    <p>
+                                                        <input name="txtPassword" type="password" id="txtPassword" placeholder="PASSWORD">
+                                                        <span style="font-size: 10px"> e.g. (01FEB1900)</span>
+                                                    </p>
+                                                </span>
+                                                <span>
+                                                    <p>
+                                                        <input type="submit" name="btnSignIn" value="SIGN IN" id="btnSignIn" class="gobutton">
+                                                    </p>
+                                                </span>
+                                                <span>
+                                                    <p>
+                                                        <input type="submit" name="btnNewReg" value="NEW REGISTRATION" id="btnNewReg" class="gobutton2">
+                                                    </p>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="inn-body-main">
+                        <div class="admission-section">
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                        <div class="admission-info">
+                                            <div class="admission-mb-view">
+                                                <h2>Apex Institute Admissions</h2>
+                                                <span>Apply for admissions at Apex Institute</span>
+                                                <p>The admisions are made strictly as per the policy and guidelines of Uttar Pradesh Technical University, Lucknow for B.Tech. and M.B.A. programmes, Board of Technical Education, U.P. Lucknow for Diploma in Engineering (Polytechnic) programme, M.J.P. Rohilkhand University, Bareilly for B.B.A., B.C.A., B.Com (H), B.Sc (HS) and B.Sc (PCM )programmes and Board of Technical Education UP for D.Pharma as notified from time to time.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                        <div class="addmission-pro-panel">
+                                            <div class="row">
+                                                <div class="col-lg-2 col-md-2 col-sm-2"> <img src="Images/ug-programs.png" class="img-responsive" alt=""> </div>
+                                                <div class="col-lg-10 col-md-10 col-sm-10">
+                                                    <h2>Under Graduate ProgramS</h2>
+                                                    <p>Explore our Under Graduate programs</p>
+                                                    <span class="addmission-pro-btn">
+                                                        <a class="button black btn btn-success" href="#" target="_blank">Apply Now</a>
+                                                        <a class="button yellow btn btn-danger main_ug" onclick="Change(this)">Our Programs</a>
+                                                    </span>
+                                                    <div class="div_ug div_details">
+                                                        <h4>Under Graduate Programs</h4>
+                                                        <ul class="list-pro">
+                                                            <li><a title="ENGINEERING" href="Engineering.html">ENGINEERING</a></li>
+                                                            <li><a title="Management" href="Management_bba_mba.html">Management</a></li>
+                                                            <li><a title="Computing" href="Computer_Applications.html">Computing</a></li>
+                                                            <li><a title="Arts" href="#">Arts</a></li>
+                                                            <li><a title="Sciences" href="#">Sciences</a></li>
+                                                            <li><a title="Pharmaceutical Sciences" href="College _of_Pharmacy.html">Pharmaceutical Sciences</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="addmission-pro-panel">
+                                            <div class="row">
+                                                <div class="col-lg-2 col-md-2 col-sm-2"> <img src="Images/pg-programs.png" class="img-responsive" alt=""> </div>
+                                                <div class="col-lg-10 col-md-10 col-sm-10">
+                                                    <h2>Post Graduate Programs</h2>
+                                                    <p>Explore our Post Graduate programs</p>
+                                                    <span class="addmission-pro-btn">
+                                                        <a class="button black btn btn-success" href="#" target="_blank">Apply Now</a>
+                                                        <a class="button yellow btn btn-danger main_pg" onclick="Change(this)">Our Programs</a>
+                                                    </span>
+                                                    <div class="div_pg div_details">
+                                                        <h4>Post Graduate Programs</h4>
+                                                        <ul class="list-pro">
+                                                            <li><a title="Management" href="Management_bba_mba.html">Management</a></li>
+                                                            <li><a title="Education" href="Education.html">Education</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="addmission-pro-panel">
+                                            <div class="row">
+                                                <div class="col-lg-2 col-md-2 col-sm-2"> <img src="Images/sp-programs.png" class="img-responsive" alt=""> </div>
+                                                <div class="col-lg-10 col-md-10 col-sm-10">
+                                                    <h2>SPECIALIZED Programs</h2>
+                                                    <p>Explore our IBM &amp; ICICI Sponsered Programs</p>
+                                                    <span class="addmission-pro-btn">
+                                                        <a class="button btn btn-success black" href="#" target="_blank">Apply Now</a>
+                                                        <a class="button btn btn-danger yellow main_ibm" onclick="Change(this)">Our Programs</a>
+                                                    </span>
+                                                    <div class="div_ibm div_details">
+                                                        <h4>SPECIALIZED Programs</h4>
+                                                        <ul class="list-pro list-pro1">
+                                                            <li><a title="After 12th" href="Leet_Programs.html">After 12th</a></li>
+                                                            <li><a title="After Diploma" href="Leet_Programs.html">After Diploma</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="feature-nav">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-lg-4 col-md-4 col-sm-4">
+                                        <div class="feature-tab">
+                                            <a href="#" title="Education Loan Facility">
+                                                <div class="loan-pic"></div>
+                                            </a>
+                                            <h2>Education Loan Facility</h2>
+                                            <span class="txt-feature1">Loan upto 4 lac without any security. For availing this facility contact your nearest Banks</span> <span class="view-more"><a href="https://www.cuchd.in/admissions/education-loan.php">+ VIEW MORE DETAILS</a></span>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-4 col-sm-4">
+                                        <div class="feature-tab">
+                                            <a href="Apex_Advantages.html" title="Apex Advantages">
+                                                <div class="advantage-pic"></div>
+                                            </a>
+                                            <h2>Apex Advantages</h2>
+                                            <span class="txt-feature1">
+                                                Industry-Institute Interface
+                                                Academicians – The Anchors of Learning
+                                                Transparent and Objective Examination
+                                            </span> <span class="view-more"><a href="Apex_Advantages.html">+ VIEW MORE DETAILS</a></span>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-4 col-sm-4">
+                                        <div class="feature-tab">
+                                            <a href="aboutus.html" title="Why APEX">
+                                                <div class="why-chd-pic"></div>
+                                            </a>
+                                            <h2>Why Apex ?</h2>
+                                            <span class="txt-feature1">History, Culture, Shopping, Music and more - the Rampur area has it all. Find out why Apex called “City Beautiful”.</span> <span class="view-more"><a href="aboutus.html" title="Why Apex">+ VIEW MORE DETAILS</a></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--  <div class="section-backto-roi">
+                    <p style="margin-left: 35px"> <a href="roi-return-on-investment.php"> <img src="../imgs/cu-return-on-investment.png" width="206" height="64" /></a> </p>
+                    </div>-->
+                        <div id="cd-nav" class="">
+                            <a href="javascript:void(0)" class="cd-nav-trigger">Menu<span></span></a>
+                            <nav id="cd-main-nav" class="prog-related-links">
+                                <div class="useful-links-list box-shadow-common">
+                                    <span class="related-links-nav">Admissions Quick Links</span>
+                                    <ul class="admissions-quick-link">
+
+                                        <li><a href="https://www.cuchd.in/admissions/course-fee.php" title="Chandigarh University (CU) Program Fee">Course Fee</a></li>
+                                        <li><a href="https://www.cuchd.in/admissions/how-to-apply.php" title="How to Apply at Chandigarh University (CU)">How to Apply?</a></li>
+                                        <li><a href="https://www.cuchd.in/admissions/Admission-Criteria.php" title="Chandigarh University Admission Criteria">Admission Criteria</a></li>
+                                        <li><a href="https://www.cuchd.in/scholarship/" title="Chandigarh University Scholarships">CU Scholarship</a></li>
+                                        <li><a href="http://www.cpcgharuan.com/" target="_blank">Diploma Programs</a></li>
+                                        <li><a href="http://fasttrack.cuchd.in/index.aspx?type=cuchd" target="_blank">Online Registration Form</a></li>
+                                        <li><a href="https://www.cuchd.in/international/international-students/international_enquiry.aspx" target="_blank">International Admission Form</a></li>
+                                        <li><a href="https://www.cuchd.in/admissions/admission-offices.php" title="Admission Offices">Admission Offices</a></li>
+                                        <li><a href="https://www.cuchd.in/contact/">Visit the Campus</a></li>
+                                        <li><a href="https://www.cuchd.in/migration/">Migration Policy</a></li>
+                                    </ul>
+                                </div>
+
+
+                            </nav>
+                        </div>
+
+                    </div>
+                </section>
+
+                <script type="text/javascript">
+                    //<![CDATA[
+                    var Page_ValidationSummaries = new Array(document.getElementById("ValidationSummary2"));
+                    var Page_Validators = new Array(document.getElementById("RequiredFieldValidatorName"), document.getElementById("RequiredFieldValidatorEmail"), document.getElementById("RequiredFieldValidator1Email"), document.getElementById("RequiredFieldValidator3"), document.getElementById("RequiredFieldValidatorMobile"), document.getElementById("rfvCity"), document.getElementById("RequiredFieldValidator1"), document.getElementById("RequiredFieldValidator2"), document.getElementById("RequiredFieldValidatorddlDate"), document.getElementById("RequiredFieldValidatorddlMnt"), document.getElementById("RequiredFieldValidatorddlyear"));
+                    //]]>
+                </script>
+
+                <script type="text/javascript">
+                    //<![CDATA[
+                    var RequiredFieldValidatorName = document.all ? document.all["RequiredFieldValidatorName"] : document.getElementById("RequiredFieldValidatorName");
+                    RequiredFieldValidatorName.controltovalidate = "txtName";
+                    RequiredFieldValidatorName.errormessage = "Please Enter Name";
+                    RequiredFieldValidatorName.validationGroup = "vgFastTrack";
+                    RequiredFieldValidatorName.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+                    RequiredFieldValidatorName.initialvalue = "";
+                    var RequiredFieldValidatorEmail = document.all ? document.all["RequiredFieldValidatorEmail"] : document.getElementById("RequiredFieldValidatorEmail");
+                    RequiredFieldValidatorEmail.controltovalidate = "txtEmail";
+                    RequiredFieldValidatorEmail.errormessage = "Please Enter EmailId";
+                    RequiredFieldValidatorEmail.validationGroup = "vgFastTrack";
+                    RequiredFieldValidatorEmail.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+                    RequiredFieldValidatorEmail.initialvalue = "";
+                    var RequiredFieldValidator1Email = document.all ? document.all["RequiredFieldValidator1Email"] : document.getElementById("RequiredFieldValidator1Email");
+                    RequiredFieldValidator1Email.controltovalidate = "txtEmail";
+                    RequiredFieldValidator1Email.errormessage = "Invalid Email";
+                    RequiredFieldValidator1Email.validationGroup = "vgFastTrack";
+                    RequiredFieldValidator1Email.evaluationfunction = "RegularExpressionValidatorEvaluateIsValid";
+                    RequiredFieldValidator1Email.validationexpression = "^[\\w!#$%&\'*+\\-/=?\\^_`{|}~]+(\\.[\\w!#$%&\'*+\\-/=?\\^_`{|}~]+)*@((([\\-\\w]+\\.)+[a-zA-Z]{2,4})|(([0-9]{1,3}\\.){3}[0-9]{1,3}))$";
+                    var RequiredFieldValidator3 = document.all ? document.all["RequiredFieldValidator3"] : document.getElementById("RequiredFieldValidator3");
+                    RequiredFieldValidator3.controltovalidate = "txtMobile";
+                    RequiredFieldValidator3.errormessage = "Incorrect phone number";
+                    RequiredFieldValidator3.validationGroup = "vgFastTrack";
+                    RequiredFieldValidator3.evaluationfunction = "RegularExpressionValidatorEvaluateIsValid";
+                    RequiredFieldValidator3.validationexpression = "(\\d*-)?\\d{10}";
+                    var RequiredFieldValidatorMobile = document.all ? document.all["RequiredFieldValidatorMobile"] : document.getElementById("RequiredFieldValidatorMobile");
+                    RequiredFieldValidatorMobile.controltovalidate = "txtMobile";
+                    RequiredFieldValidatorMobile.errormessage = "Please Enter Phone Number";
+                    RequiredFieldValidatorMobile.validationGroup = "vgFastTrack";
+                    RequiredFieldValidatorMobile.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+                    RequiredFieldValidatorMobile.initialvalue = "";
+                    var rfvCity = document.all ? document.all["rfvCity"] : document.getElementById("rfvCity");
+                    rfvCity.controltovalidate = "txtCity";
+                    rfvCity.errormessage = "Enter City";
+                    rfvCity.display = "Dynamic";
+                    rfvCity.validationGroup = "vgFastTrack";
+                    rfvCity.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+                    rfvCity.initialvalue = "";
+                    var RequiredFieldValidator1 = document.all ? document.all["RequiredFieldValidator1"] : document.getElementById("RequiredFieldValidator1");
+                    RequiredFieldValidator1.controltovalidate = "ddlProgramInterested";
+                    RequiredFieldValidator1.errormessage = "Please Select Discipline";
+                    RequiredFieldValidator1.validationGroup = "vgFastTrack";
+                    RequiredFieldValidator1.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+                    RequiredFieldValidator1.initialvalue = "-1";
+                    var RequiredFieldValidator2 = document.all ? document.all["RequiredFieldValidator2"] : document.getElementById("RequiredFieldValidator2");
+                    RequiredFieldValidator2.controltovalidate = "ddlProgram";
+                    RequiredFieldValidator2.errormessage = "Please Select Program";
+                    RequiredFieldValidator2.validationGroup = "vgFastTrack";
+                    RequiredFieldValidator2.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+                    RequiredFieldValidator2.initialvalue = "0";
+                    var RequiredFieldValidatorddlDate = document.all ? document.all["RequiredFieldValidatorddlDate"] : document.getElementById("RequiredFieldValidatorddlDate");
+                    RequiredFieldValidatorddlDate.controltovalidate = "ddlDate";
+                    RequiredFieldValidatorddlDate.errormessage = "Please Select Date";
+                    RequiredFieldValidatorddlDate.validationGroup = "vgFastTrack";
+                    RequiredFieldValidatorddlDate.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+                    RequiredFieldValidatorddlDate.initialvalue = "0";
+                    var RequiredFieldValidatorddlMnt = document.all ? document.all["RequiredFieldValidatorddlMnt"] : document.getElementById("RequiredFieldValidatorddlMnt");
+                    RequiredFieldValidatorddlMnt.controltovalidate = "ddlMnt";
+                    RequiredFieldValidatorddlMnt.errormessage = "Please Select Month";
+                    RequiredFieldValidatorddlMnt.validationGroup = "vgFastTrack";
+                    RequiredFieldValidatorddlMnt.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+                    RequiredFieldValidatorddlMnt.initialvalue = "0";
+                    var RequiredFieldValidatorddlyear = document.all ? document.all["RequiredFieldValidatorddlyear"] : document.getElementById("RequiredFieldValidatorddlyear");
+                    RequiredFieldValidatorddlyear.controltovalidate = "ddlyear";
+                    RequiredFieldValidatorddlyear.errormessage = "Please Select Year";
+                    RequiredFieldValidatorddlyear.validationGroup = "vgFastTrack";
+                    RequiredFieldValidatorddlyear.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+                    RequiredFieldValidatorddlyear.initialvalue = "0";
+                    var ValidationSummary2 = document.all ? document.all["ValidationSummary2"] : document.getElementById("ValidationSummary2");
+                    ValidationSummary2.showmessagebox = "True";
+                    ValidationSummary2.showsummary = "False";
+                    ValidationSummary2.validationGroup = "vgFastTrack";
+                    //]]>
+                </script>
+
+
+                <script type="text/javascript">
+                    //<![CDATA[
+
+                    var Page_ValidationActive = false;
+                    if (typeof (ValidatorOnLoad) == "function") {
+                        ValidatorOnLoad();
+                    }
+
+                    function ValidatorOnSubmit() {
+                        if (Page_ValidationActive) {
+                            return ValidatorCommonOnSubmit();
+                        }
+                        else {
+                            return true;
+                        }
+                    }
+
+                    (function (id) {
+                        var e = document.getElementById(id);
+                        if (e) {
+                            e.dispose = function () {
+                                Array.remove(Page_ValidationSummaries, document.getElementById(id));
+                            }
+                            e = null;
+                        }
+                    })('ValidationSummary2');
+
+                    document.getElementById('RequiredFieldValidatorName').dispose = function () {
+                        Array.remove(Page_Validators, document.getElementById('RequiredFieldValidatorName'));
+                    }
+
+                    document.getElementById('RequiredFieldValidatorEmail').dispose = function () {
+                        Array.remove(Page_Validators, document.getElementById('RequiredFieldValidatorEmail'));
+                    }
+
+                    document.getElementById('RequiredFieldValidator1Email').dispose = function () {
+                        Array.remove(Page_Validators, document.getElementById('RequiredFieldValidator1Email'));
+                    }
+                    Sys.Application.add_init(function () {
+                        $create(AjaxControlToolkit.FilteredTextBoxBehavior, { "ValidChars": "0123456789", "id": "FilteredTextBoxExtender1" }, null, null, $get("txtMobile"));
+                    });
+
+                    document.getElementById('RequiredFieldValidator3').dispose = function () {
+                        Array.remove(Page_Validators, document.getElementById('RequiredFieldValidator3'));
+                    }
+
+                    document.getElementById('RequiredFieldValidatorMobile').dispose = function () {
+                        Array.remove(Page_Validators, document.getElementById('RequiredFieldValidatorMobile'));
+                    }
+
+                    document.getElementById('rfvCity').dispose = function () {
+                        Array.remove(Page_Validators, document.getElementById('rfvCity'));
+                    }
+                    Sys.Application.add_init(function () {
+                        $create(AjaxControlToolkit.FilteredTextBoxBehavior, { "ValidChars": "qwertyuiopasdfghjklzxcvbnm QWERTYUIOPASDFGHJKLZXCVBNM", "id": "FilteredTextBoxExtender3" }, null, null, $get("txtCity"));
+                    });
+
+                    document.getElementById('RequiredFieldValidator1').dispose = function () {
+                        Array.remove(Page_Validators, document.getElementById('RequiredFieldValidator1'));
+                    }
+
+                    document.getElementById('RequiredFieldValidator2').dispose = function () {
+                        Array.remove(Page_Validators, document.getElementById('RequiredFieldValidator2'));
+                    }
+
+                    document.getElementById('RequiredFieldValidatorddlDate').dispose = function () {
+                        Array.remove(Page_Validators, document.getElementById('RequiredFieldValidatorddlDate'));
+                    }
+
+                    document.getElementById('RequiredFieldValidatorddlMnt').dispose = function () {
+                        Array.remove(Page_Validators, document.getElementById('RequiredFieldValidatorddlMnt'));
+                    }
+
+                    document.getElementById('RequiredFieldValidatorddlyear').dispose = function () {
+                        Array.remove(Page_Validators, document.getElementById('RequiredFieldValidatorddlyear'));
+                    }
+                    //]]>
+                </script>
+            </form>
+
+        </div>
+        <!--- BODY --->
+        <!--- FOOTER --->
+
+        <div class="footer-fixed-bar" style="display: block;">
+            <p>#APEX-2020</p>
+            <a href="http://cucet.cuchd.in/index.aspx?type=cuchd" target="_blank">Apply Online</a>
+        </div>
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-3 col-xs-6">
+                        <div class="ft-links">
+                            <h4>APPLY HERE</h4>
+                            <ul>
+                                <li><a href="#">Admissions</a></li>
+                                <li><a href="#">Education Loan</a></li>
+                                <li><a href="#" target="_blank">Online Admission</a></li>
+                                <li><a href="#" target="_blank">Distance Education Admissions</a></li>
+                                <li><a href="#">How to Apply?</a></li>
+                                <li><a href="#">Scholarship</a></li>
+                                <li><a href="#">Admission Office</a></li>
+                                <li><a href="#">Student Feedback</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-xs-6">
+                        <div class="ft-links">
+                            <h4>LEARN HERE</h4>
+                            <ul>
+                                <li><a href="#">IQAC</a></li>
+                                <li><a href="#">Organogram</a></li>
+                                <li><a href="#">Other Committee</a></li>
+                                <li><a href="#" target="_blank">Pay Fee Online</a></li>
+                                <li><a href="#">Our Institutes</a></li>
+                                <li><a href="#">Teaching Practices</a></li>
+                                <li><a href="#">System of Evaluation</a></li>
+                                <li><a href="#">Placements</a></li>
+                                <li><a href="#">Apex Advantages</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-xs-6">
+                        <div class="ft-links">
+                            <h4>VISIT HERE</h4>
+                            <ul>
+                                <li><a href="#">RTI</a></li>
+                                <li>
+                                    <a href="#"> Grievance</a>
+                                </li>
+                                <li><a href="#" target="_blank">Apex Times</a></li>
+                                <li><a href="#">Maps</a></li>
+                                <li><a href="#">Distance Calculator</a></li>
+                                <li><a href="#">General Enquiry</a></li>
+                                <li><a href="#">About Chandigarh</a></li>
+                                <li><a href="#" target="_blank">DEB(ODL) Application</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-xs-6">
+                        <div class="ft-links">
+                            <h4>LIVE HERE</h4>
+                            <ul>
+                                <li><a href="#">Hostels</a></li>
+                                <li><a href="#">Transport</a></li>
+                                <li><a href="#">Sports</a></li>
+                                <li><a href="#">Cultural</a></li>
+                                <li><a href="#">Student Welfare</a></li>
+                                <li><a href="#">Libraries</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="newsletter-ft">
+                <div class="container news-l">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h4>NEWSLETTER SIGNUP</h4>
+                            <div class="row">
+                                <div class="col-xs-6">
+                                    <div class="news-letter-form">
+                                        <p>By subscribing to our mailing list you will always be update with the latest news from us.</p>
+                                        <form>
+                                            <input type="text" placeholder="Enter your Email Address" class="inp-box">
+                                            <input type="submit" class="cta-btn-lg" value="Subscribe">
+                                        </form>
+                                        <small>Don’t worry we never spam!</small> <br>
+                                        <h4>AIU Circulars</h4>
+                                        <p>AIU is inviting the students to share your viewpoint on higher education in the form of articles, viewpoints.</p>
+                                        <p><a href="#" target="_blank" style="text-decoration: underline !important;color: #a5a5a5;">Please go through the circulars below</a></p>
+                                    </div>
+                                </div>
+                                <div class="col-xs-6">
+                                    <div class="ab-uni">
+                                        <p>Apex Institute, Bareilly is the <b>Best Institute in Bareilly</b> and North India that offers various Undergraduate and Post graduate Courses like B.tech, BCA, BBA, HMCT, B.Com, LLB, B.Arch, MBA, M.Tech, Journalism and MCA at an affordable fees in Chandigarh. <a href="#" target="_blank">Apply Now</a> at India's Best University in Punjab,  Chandigarh which provides top placements. </p>
+                                        <ul>
+                                            <li><a href="#">Apex Institute, Bareilly Courses Fee Details</a></li>
+                                            <li><a href="#">Environment Clearance</a></li>
+                                            <li><a href="#">Grievance Redressal Committee</a></li>
+                                            <li><a href="#">Faculty List</a></li>
+
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <h4>GET IN TOUCH</h4>
+                            <div class="row">
+                                <div class="col-xs-6">
+                                    <div class="cu-address">
+                                        <p>
+                                            <b>Apex Institute</b><br>
+                                            Bareilly, Uttar Pradesh<br>
+                                            General Helpline No:+91-7351408009<br>
+                                        </p>
+                                    </div>
+                                    <div class="help-nos">
+                                        <ul>
+                                            <li><a href="#">+91-7351408009</a></li>
+                                            <li><a href="#">admissions@apex.in</a></li>
+                                            <li><a href="#">Open in Google Maps</a></li>
+                                        </ul>
+                                        <!--<span><a href="https://play.google.com/store/apps/details?id=com.mobile.cu.CUPalm&hl=en"><img src="assets/upload/playstore-btn.png" alt="btn"></a></span>-->
+                                    </div>
+                                </div>
+                                <div class="col-xs-6">
+                                    <!--<div class="unai-logo">
+                                    <img src="./Best Private University in Punjab, North India (India) - Chandigarh University_files/unai-logo.png" alt="UNAI">
+                                    <p>Chandigarh University (India) is now a member of the United Nations Academic Impact (UNAI)</p>
+                                </div>-->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="copy-rights">
+                    <div class="container">
+                        <div class="clearfix">
+                            <div class="copy-links pull-left">
+                                <ul class="clearfix">
+                                    <li><a href="#">NAAC</a></li>
+                                    <li><a href="#">NIRF</a></li>
+                                    <li><a href="#" target="_blank">NATS</a></li>
+                                    <li><a href="#">Anti-Ragging</a></li>
+                                </ul>
+                            </div>
+                            <div class="social-media pull-right">
+                                <ul class="clearfix">
+                                    <li><a href="#" rel="nofollow" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                    <li><a href="#" rel="nofollow" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                    <li><a href="#" rel="nofollow" target="_blank"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
+                                    <li><a href="#" rel="nofollow" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                                    <li><a href="#" rel="nofollow" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                                    <li><a href="#" rel="nofollow" target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <span class="copy-r">© All rights reserved  2019-20</span>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <div class="testimonial-btn thumb-testi-all" id="testimonial-all">
+            <!--<a href="#"><img src="assets/upload/testi-icon.png" alt=""></a>-->
+        </div>
+        <div class="testimonial-element">
+            <div id="mySidenav">
+                <a href="javascript:void(0)" class="closebtn">×</a>
+                <!--?php include 'i-testimonials-inner.php'; ?-->
+            </div>
+        </div>
+        <script src="./Overview_files/rfq-function.js.download" type="text/javascript"></script>
+        <script type="text/javascript">
+            $(document).ready(function () {
+                $("select").change(function () {
+                    $(this).find("option:selected").each(function () {
+                        var optionValue = $(this).attr("value");
+                        if (optionValue) {
+                            $(".box").not("." + optionValue).hide();
+                            $("." + optionValue).show();
+                        } else {
+                            $(".box").hide();
+                        }
+                    });
+                }).change();
+            });
+
+        </script>
+        <script src="Best Private University in Punjab, North India (India) - Chandigarh University_files/jquery.min.js"></script>
+        <script src="JS/bootstrap.min.js"></script>
+        <script src="Best Private University in Punjab, North India (India) - Chandigarh University_files/owl.carousel.min.js"></script>
+        <script src="Best Private University in Punjab, North India (India) - Chandigarh University_files/wow.min.js"></script>
+        <script src="JS/main1.js"></script>
+
+        <script>
+            $(document).ready(function () {
+                $(".breadcrumb-style li").last().text($(".breadcrumb-style li").last().text().replace('.php', ''));
+            });
+        </script>
+        <!-- Google Code for Remarketing Tag -->
+        <!--------------------------------------------------
+    Remarketing tags may not be associated with personally identifiable information or placed on pages related to sensitive categories. See more information and instructions on how to setup the tag on: http://google.com/ads/remarketingsetup
+    --------------------------------------------------->
+        <script type="text/javascript">
+            /* <![CDATA[ */
+            var google_conversion_id = 955916751;
+            var google_custom_params = window.google_tag_params;
+            var google_remarketing_only = true;
+            /* ]]> */
+        </script>
+        <script type="text/javascript" src="./Overview_files/f(4).txt"></script>
+        <noscript>
+            <div style="display:inline;"> <img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/955916751/?value=0&amp;guid=ON&amp;script=0" /> </div>
+        </noscript>
+        <img src="./Overview_files/spp.pl.download" style="display: none;">
+        <script>
+            $(function () {
+                $("#example-two").organicTabs({
+                    "speed": 200
+                });
+            });
+        </script>
+        <!--
+    <script src="/scripts/plugins.js"></script>
+    <script src="/scripts/organictabs.jquery.js"></script>
+    -->
+        <script>
+            (function (i, s, o, g, r, a, m) {
+                i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                    (i[r].q = i[r].q || []).push(arguments)
+                }, i[r].l = 1 * new Date(); a = s.createElement(o),
+                    m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+            })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+            ga('create', 'UA-55121698-1', 'auto');
+            ga('send', 'pageview');
+
+        </script>
+        <script>
+            (function (f, b, e, v, n, t, s) { n = window.fbq = function () { n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments) }; n.version = '1.0'; n.pixelId = e; n.queue = []; t = f.createElement(b); t.async = true; t.src = v; s = f.getElementsByTagName(b)[0]; s.parentNode.insertBefore(t, s) }(document, 'script', '633353676751186', '//connect.facebook.net/en_US/fbevents.js'));
+
+            fbq('reportPageView');
+        </script>
+        <noscript>
+            <img height="1" width="1" alt="" style="display:none" src="https://www.facebook.com/tr?id=633353676751186&amp;ev=PageView&amp;noscript=1" />
+        </noscript>
+        <script type="text/javascript">
+            /* <![CDATA[ */
+            var google_conversion_id = 955916751;
+            var google_custom_params = window.google_tag_params;
+            var google_remarketing_only = true;
+            /* ]]> */
+        </script>
+        <script type="text/javascript" src="./Overview_files/f(4).txt"></script>
+        <noscript>
+            <div style="display:inline;"> <img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/955916751/?guid=ON&amp;script=0" /> </div>
+        </noscript>
+        <script src="./Overview_files/programdetails2.0.js.download"></script>
+        <style>
+            .other-program-sec #img_loading_prog, .program_details #img_loading_prog {
+                position: relative;
+                left: 50%;
+                width: 30px;
+                transform: translateX(-50%);
+            }
+        </style>
+    </div>
+    <script type="text/javascript" id="">!function (b, e, f, g, a, c, d) { b.fbq || (a = b.fbq = function () { a.callMethod ? a.callMethod.apply(a, arguments) : a.queue.push(arguments) }, b._fbq || (b._fbq = a), a.push = a, a.loaded = !0, a.version = "2.0", a.queue = [], c = e.createElement(f), c.async = !0, c.src = g, d = e.getElementsByTagName(f)[0], d.parentNode.insertBefore(c, d)) }(window, document, "script", "https://connect.facebook.net/en_US/fbevents.js"); fbq("init", "633353676751186"); fbq("track", "PageView");</script>
+    <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=633353676751186&amp;ev=PageView&amp;noscript=1"></noscript>
+
+    <script type="text/javascript" id="">!function (b, e, f, g, a, c, d) { b.fbq || (a = b.fbq = function () { a.callMethod ? a.callMethod.apply(a, arguments) : a.queue.push(arguments) }, b._fbq || (b._fbq = a), a.push = a, a.loaded = !0, a.version = "2.0", a.queue = [], c = e.createElement(f), c.async = !0, c.src = g, d = e.getElementsByTagName(f)[0], d.parentNode.insertBefore(c, d)) }(window, document, "script", "https://connect.facebook.net/en_US/fbevents.js"); fbq("init", "633353676751186"); fbq("track", "PageView");</script>
+    <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=633353676751186&amp;ev=PageView&amp;noscript=1"></noscript>
+    <script src="./Overview_files/settings" type="text/javascript"></script>
+    <!--<div id="timeyplugin">
+    <script src="https://s3.ap-south-1.amazonaws.com/cuchd/plugincuchd/jsPlugin.js"></script>
+    </div>-->
+    <!--- FOOTER --->
+    <script src="./Overview_files/waypoints.min.js.download"></script>
+    <script src="./Overview_files/jquery.counterup.min.js.download"></script>
+    <script>
+        jQuery(document).ready(function ($) {
+            $('.counter').counterUp({
+                delay: 10,
+                time: 1000
+            });
+        });
+    </script>
+    <script src="./Overview_files/jquery-2.1.1.js.download"></script>
+    <script src="JS/main1.js"></script>
+
+
+</body>
+</html>
